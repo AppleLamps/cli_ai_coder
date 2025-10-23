@@ -35,7 +35,7 @@ def main():
 
     # Ensure we're in the project root
     script_dir = Path(__file__).parent
-    project_root = script_dir.parent / "cli_ai_coder"
+    project_root = script_dir.parent
     os.chdir(project_root)
 
     # 1. Tests
@@ -74,8 +74,8 @@ def main():
 
         # Test CLI
         print("\n5. Testing CLI...")
-        run_cmd([python, "-m", "cli_ai_coder.cli", "--help"])
-        run_cmd([python, "-m", "cli_ai_coder.cli", "doctor"])
+        run_cmd([python, "-m", "cli", "--help"])
+        run_cmd([python, "-m", "cli", "doctor"])
 
     # 6. Functional smoke
     print("\n6. Functional smoke tests...")
@@ -112,7 +112,7 @@ def main():
     print("⚠️  Skipping pip check (requires global install)")
 
     # Config audit
-    from cli_ai_coder.core.config import get_config
+    from core.config import get_config
     config = get_config()
     if config.telemetry_enabled:
         print("❌ Telemetry enabled by default")
@@ -132,7 +132,7 @@ def main():
     # 8. CLI contract
     print("\n8. CLI contract...")
     # Check commands exist by importing and checking typer app
-    from cli_ai_coder.cli import app
+    from cli import app
     commands = [cmd.name for cmd in app.registered_commands]
     required_commands = ["open", "plan", "pipeline", "index", "doctor"]
     for cmd in required_commands:
