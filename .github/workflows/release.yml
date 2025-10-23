@@ -22,7 +22,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -e .
-        pip install mkdocs mkdocs-material build
+        pip install mkdocs mkdocs-material mkdocs-macros-plugin mkdocstrings mkdocstrings-python build
     - name: Run release check
       run: python scripts/release_check.py
 
