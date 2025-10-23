@@ -1,0 +1,2 @@
+[console_scripts]
+ccode = cli_ai_coder.cli:app

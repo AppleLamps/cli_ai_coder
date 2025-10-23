@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-ai-coder"
+version = "1.0.0"
+description = "CLI AI Coder with xAI integration"
+authors = [{name = "Developer"}]
+requires-python = ">=3.10"
+dependencies = [
+    "prompt_toolkit",
+    "pygments",
+    "openai",
+    "tomli",
+    "pytest",
+    "rapidfuzz",
+    "typer",
+    "rich",
+    "libcst"
+]
+
+[project.scripts]
+ccode = "cli_ai_coder.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai", "core", "editor", "indexer", "plugins", "codemods", "language", "cli_ai_coder"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

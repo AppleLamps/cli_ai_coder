@@ -1,0 +1,80 @@
+site_name: CLI AI Coder
+site_description: A powerful AI-assisted coding tool with safe codemods and sandboxed plugins
+site_author: CLI AI Coder Team
+site_url: https://cli-ai-coder.example.com
+
+repo_name: cli-ai-coder
+repo_url: https://github.com/your-org/cli-ai-coder
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+plugins:
+  - search
+  - macros
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+      - Configuration: getting-started/configuration.md
+  - Features:
+      - Codemods: features/codemods.md
+      - Plugins: features/plugins.md
+      - AI Integration: features/ai-integration.md
+  - CLI Reference:
+      - Commands: cli/commands.md
+      - Configuration: cli/configuration.md
+  - Release Notes: CHANGELOG.md
+  - Privacy & Telemetry: privacy.md
+  - Troubleshooting: troubleshooting.md
+  - API Reference:
+      - Core: api/core.md
+      - AI Providers: api/providers.md
+      - Codemods: api/codemods.md
+      - Plugins: api/plugins.md
+  - Demos:
+      - Codemod Examples: demos/codemods.md
+      - Plugin Development: demos/plugins.md
+  - Contributing: contributing.md

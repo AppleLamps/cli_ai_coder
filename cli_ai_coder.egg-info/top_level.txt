@@ -1,0 +1,7 @@
+ai
+codemods
+core
+editor
+indexer
+language
+plugins

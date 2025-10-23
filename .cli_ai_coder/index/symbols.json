@@ -1,0 +1,7052 @@
+{
+  "symbols": [
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "callback",
+      "start_line": 13,
+      "end_line": 14
+    },
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "open",
+      "start_line": 18,
+      "end_line": 23
+    },
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "plan",
+      "start_line": 27,
+      "end_line": 29
+    },
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "pipeline",
+      "start_line": 33,
+      "end_line": 35
+    },
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "index",
+      "start_line": 39,
+      "end_line": 41
+    },
+    {
+      "path": "cli.py",
+      "kind": "function",
+      "name": "doctor",
+      "start_line": 45,
+      "end_line": 84
+    },
+    {
+      "path": "main.py",
+      "kind": "function",
+      "name": "main",
+      "start_line": 8,
+      "end_line": 34
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "class",
+      "name": "CircuitBreakerState",
+      "start_line": 28,
+      "end_line": 32
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "class",
+      "name": "CircuitBreaker",
+      "start_line": 35,
+      "end_line": 79
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "class",
+      "name": "XAIClient",
+      "start_line": 82,
+      "end_line": 523
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 38,
+      "end_line": 45
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "should_attempt",
+      "start_line": 47,
+      "end_line": 60
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "record_success",
+      "start_line": 62,
+      "end_line": 65
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "record_failure",
+      "start_line": 67,
+      "end_line": 75
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "get_state",
+      "start_line": 77,
+      "end_line": 79
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 85,
+      "end_line": 110
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_select_provider",
+      "start_line": 112,
+      "end_line": 126
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "client",
+      "start_line": 129,
+      "end_line": 133
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_get_circuit_breaker",
+      "start_line": 135,
+      "end_line": 144
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_should_retry",
+      "start_line": 146,
+      "end_line": 152
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_calculate_delay",
+      "start_line": 154,
+      "end_line": 158
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_retry_call",
+      "start_line": 160,
+      "end_line": 179
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "register_tool",
+      "start_line": 181,
+      "end_line": 183
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "complete_chat",
+      "start_line": 185,
+      "end_line": 242
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_complete_standard",
+      "start_line": 244,
+      "end_line": 315
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_complete_with_tools",
+      "start_line": 317,
+      "end_line": 408
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_build_tools_schema",
+      "start_line": 410,
+      "end_line": 460
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_redact_tool_output",
+      "start_line": 462,
+      "end_line": 474
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_record_history",
+      "start_line": 476,
+      "end_line": 510
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_calculate_cost",
+      "start_line": 512,
+      "end_line": 523
+    },
+    {
+      "path": "ai\\client.py",
+      "kind": "function",
+      "name": "_call",
+      "start_line": 256,
+      "end_line": 307
+    },
+    {
+      "path": "ai\\context.py",
+      "kind": "class",
+      "name": "ContextBundle",
+      "start_line": 10,
+      "end_line": 15
+    },
+    {
+      "path": "ai\\context.py",
+      "kind": "function",
+      "name": "estimate_tokens",
+      "start_line": 18,
+      "end_line": 29
+    },
+    {
+      "path": "ai\\context.py",
+      "kind": "function",
+      "name": "gather_context",
+      "start_line": 32,
+      "end_line": 123
+    },
+    {
+      "path": "ai\\context.py",
+      "kind": "function",
+      "name": "gather_symbol_adjacent_snippets",
+      "start_line": 126,
+      "end_line": 179
+    },
+    {
+      "path": "ai\\context.py",
+      "kind": "function",
+      "name": "gather_context_v2",
+      "start_line": 182,
+      "end_line": 379
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "class",
+      "name": "HistoryEntry",
+      "start_line": 13,
+      "end_line": 33
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "class",
+      "name": "AIHistory",
+      "start_line": 36,
+      "end_line": 172
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 26,
+      "end_line": 28
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "from_dict",
+      "start_line": 31,
+      "end_line": 33
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 39,
+      "end_line": 45
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "_ensure_dir",
+      "start_line": 47,
+      "end_line": 49
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "_load_history",
+      "start_line": 51,
+      "end_line": 66
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "_save_history",
+      "start_line": 68,
+      "end_line": 81
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "add_entry",
+      "start_line": 83,
+      "end_line": 116
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "add_plan_entry",
+      "start_line": 118,
+      "end_line": 146
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "get_entries",
+      "start_line": 148,
+      "end_line": 153
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "clear_history",
+      "start_line": 155,
+      "end_line": 158
+    },
+    {
+      "path": "ai\\history.py",
+      "kind": "function",
+      "name": "get_stats",
+      "start_line": 160,
+      "end_line": 172
+    },
+    {
+      "path": "ai\\patches.py",
+      "kind": "function",
+      "name": "is_unified_diff",
+      "start_line": 7,
+      "end_line": 23
+    },
+    {
+      "path": "ai\\patches.py",
+      "kind": "function",
+      "name": "parse_affected_paths",
+      "start_line": 26,
+      "end_line": 47
+    },
+    {
+      "path": "ai\\patches.py",
+      "kind": "function",
+      "name": "split_hunks",
+      "start_line": 50,
+      "end_line": 100
+    },
+    {
+      "path": "ai\\patches.py",
+      "kind": "function",
+      "name": "apply_selected_hunks",
+      "start_line": 103,
+      "end_line": 138
+    },
+    {
+      "path": "ai\\patches.py",
+      "kind": "function",
+      "name": "apply_unified_diff",
+      "start_line": 141,
+      "end_line": 214
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "class",
+      "name": "PlanStep",
+      "start_line": 16,
+      "end_line": 22
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "class",
+      "name": "Plan",
+      "start_line": 26,
+      "end_line": 72
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "class",
+      "name": "AIPlanner",
+      "start_line": 75,
+      "end_line": 318
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 34,
+      "end_line": 51
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "from_dict",
+      "start_line": 54,
+      "end_line": 72
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 78,
+      "end_line": 83
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "generate_plan",
+      "start_line": 85,
+      "end_line": 131
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "_validate_and_repair_plan",
+      "start_line": 133,
+      "end_line": 174
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "_repair_plan_structure",
+      "start_line": 176,
+      "end_line": 217
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "_repair_json_response",
+      "start_line": 219,
+      "end_line": 259
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "_save_plan",
+      "start_line": 261,
+      "end_line": 268
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "load_plan",
+      "start_line": 270,
+      "end_line": 281
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "list_plans",
+      "start_line": 283,
+      "end_line": 302
+    },
+    {
+      "path": "ai\\planner.py",
+      "kind": "function",
+      "name": "get_plan_stats",
+      "start_line": 304,
+      "end_line": 318
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "class",
+      "name": "PlaygroundInfo",
+      "start_line": 18,
+      "end_line": 28
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "class",
+      "name": "AppliedPlanInfo",
+      "start_line": 32,
+      "end_line": 42
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "class",
+      "name": "PlanExecutor",
+      "start_line": 45,
+      "end_line": 721
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 48,
+      "end_line": 52
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "apply_plan",
+      "start_line": 54,
+      "end_line": 98
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "rollback_plan",
+      "start_line": 100,
+      "end_line": 139
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "cleanup_plan",
+      "start_line": 141,
+      "end_line": 175
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_preflight",
+      "start_line": 177,
+      "end_line": 222
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_validate_plan",
+      "start_line": 224,
+      "end_line": 241
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_create_branch",
+      "start_line": 243,
+      "end_line": 245
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_apply_steps",
+      "start_line": 247,
+      "end_line": 294
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_apply_single_step",
+      "start_line": 296,
+      "end_line": 324
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_finalize",
+      "start_line": 326,
+      "end_line": 353
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_load_applied_info",
+      "start_line": 355,
+      "end_line": 366
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_run_git",
+      "start_line": 368,
+      "end_line": 379
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_run_git_output",
+      "start_line": 381,
+      "end_line": 394
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_is_git_repo",
+      "start_line": 396,
+      "end_line": 398
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_get_current_branch",
+      "start_line": 400,
+      "end_line": 402
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_get_current_commit",
+      "start_line": 404,
+      "end_line": 406
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_is_working_tree_dirty",
+      "start_line": 408,
+      "end_line": 411
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_estimate_changed_lines",
+      "start_line": 413,
+      "end_line": 416
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "apply_plan_playground",
+      "start_line": 418,
+      "end_line": 458
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "promote_playground",
+      "start_line": 460,
+      "end_line": 483
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "cleanup_playground",
+      "start_line": 485,
+      "end_line": 518
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_create_playground_worktree",
+      "start_line": 520,
+      "end_line": 546
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_apply_steps_in_worktree",
+      "start_line": 548,
+      "end_line": 591
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_apply_single_step_in_worktree",
+      "start_line": 593,
+      "end_line": 616
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_run_tests_in_worktree",
+      "start_line": 618,
+      "end_line": 629
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_promote_via_patches",
+      "start_line": 631,
+      "end_line": 678
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_promote_via_branch",
+      "start_line": 680,
+      "end_line": 688
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_save_playground_info",
+      "start_line": 690,
+      "end_line": 707
+    },
+    {
+      "path": "ai\\plan_executor.py",
+      "kind": "function",
+      "name": "_load_playground_info",
+      "start_line": 709,
+      "end_line": 721
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_explain_prompt",
+      "start_line": 36,
+      "end_line": 62
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_refactor_prompt",
+      "start_line": 65,
+      "end_line": 95
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_fix_error_prompt",
+      "start_line": 98,
+      "end_line": 122
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_fix_tests_prompt",
+      "start_line": 125,
+      "end_line": 153
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_add_tests_prompt",
+      "start_line": 156,
+      "end_line": 185
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_plan_prompt",
+      "start_line": 188,
+      "end_line": 228
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_file_change_prompt",
+      "start_line": 231,
+      "end_line": 272
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_spec_generation_prompt",
+      "start_line": 275,
+      "end_line": 331
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_test_generation_prompt",
+      "start_line": 334,
+      "end_line": 376
+    },
+    {
+      "path": "ai\\prompts.py",
+      "kind": "function",
+      "name": "build_code_generation_prompt",
+      "start_line": 379,
+      "end_line": 423
+    },
+    {
+      "path": "ai\\router.py",
+      "kind": "class",
+      "name": "TaskType",
+      "start_line": 7,
+      "end_line": 13
+    },
+    {
+      "path": "ai\\router.py",
+      "kind": "class",
+      "name": "ModelRouter",
+      "start_line": 16,
+      "end_line": 103
+    },
+    {
+      "path": "ai\\router.py",
+      "kind": "function",
+      "name": "choose_model",
+      "start_line": 28,
+      "end_line": 70
+    },
+    {
+      "path": "ai\\router.py",
+      "kind": "function",
+      "name": "get_max_input_tokens",
+      "start_line": 72,
+      "end_line": 82
+    },
+    {
+      "path": "ai\\router.py",
+      "kind": "function",
+      "name": "get_temperature",
+      "start_line": 84,
+      "end_line": 103
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "class",
+      "name": "PipelineStage",
+      "start_line": 18,
+      "end_line": 23
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "class",
+      "name": "Spec",
+      "start_line": 27,
+      "end_line": 54
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "class",
+      "name": "TestSuite",
+      "start_line": 58,
+      "end_line": 68
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "class",
+      "name": "Implementation",
+      "start_line": 72,
+      "end_line": 82
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "class",
+      "name": "SpecPipeline",
+      "start_line": 104,
+      "end_line": 282
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 35,
+      "end_line": 43
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "from_dict",
+      "start_line": 46,
+      "end_line": 54
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 63,
+      "end_line": 68
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 77,
+      "end_line": 82
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 107,
+      "end_line": 110
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "generate_spec",
+      "start_line": 112,
+      "end_line": 143
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "generate_tests",
+      "start_line": 145,
+      "end_line": 179
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "generate_code",
+      "start_line": 181,
+      "end_line": 216
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "run_pipeline",
+      "start_line": 218,
+      "end_line": 256
+    },
+    {
+      "path": "ai\\spec_pipeline.py",
+      "kind": "function",
+      "name": "iterative_refine",
+      "start_line": 258,
+      "end_line": 282
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "repo_search",
+      "start_line": 19,
+      "end_line": 51
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "run_tests",
+      "start_line": 54,
+      "end_line": 85
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "read_file",
+      "start_line": 88,
+      "end_line": 116
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "_is_path_allowed",
+      "start_line": 119,
+      "end_line": 140
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "exec_py",
+      "start_line": 143,
+      "end_line": 166
+    },
+    {
+      "path": "ai\\tools.py",
+      "kind": "function",
+      "name": "fuzz_ratio",
+      "start_line": 14,
+      "end_line": 15
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "class",
+      "name": "CodeMod",
+      "start_line": 7,
+      "end_line": 37
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "class",
+      "name": "BaseCodeMod",
+      "start_line": 40,
+      "end_line": 71
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 13,
+      "end_line": 24
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 26,
+      "end_line": 37
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 43,
+      "end_line": 45
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 48,
+      "end_line": 50
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 53,
+      "end_line": 55
+    },
+    {
+      "path": "codemods\\base.py",
+      "kind": "function",
+      "name": "_create_unified_diff",
+      "start_line": 57,
+      "end_line": 71
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "class",
+      "name": "RenameExportCodemod",
+      "start_line": 8,
+      "end_line": 36
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "class",
+      "name": "RemoveConsoleCodemod",
+      "start_line": 39,
+      "end_line": 73
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "class",
+      "name": "OrganizeImportsBestEffortCodemod",
+      "start_line": 76,
+      "end_line": 106
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 11,
+      "end_line": 17
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 23,
+      "end_line": 36
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 42,
+      "end_line": 46
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 48,
+      "end_line": 50
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 52,
+      "end_line": 73
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 79,
+      "end_line": 83
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 85,
+      "end_line": 87
+    },
+    {
+      "path": "codemods\\js_ts.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 89,
+      "end_line": 106
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "RenameSymbolCodemod",
+      "start_line": 8,
+      "end_line": 31
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "RenameSymbolTransformer",
+      "start_line": 34,
+      "end_line": 49
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "ConvertPrintToLoggingCodemod",
+      "start_line": 52,
+      "end_line": 73
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "ConvertPrintToLoggingTransformer",
+      "start_line": 76,
+      "end_line": 93
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "AddTypeHintsCodemod",
+      "start_line": 96,
+      "end_line": 117
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "class",
+      "name": "AddTypeHintsTransformer",
+      "start_line": 120,
+      "end_line": 162
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 11,
+      "end_line": 17
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 23,
+      "end_line": 31
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 37,
+      "end_line": 39
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "leave_FunctionDef",
+      "start_line": 41,
+      "end_line": 44
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "leave_Name",
+      "start_line": 46,
+      "end_line": 49
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 55,
+      "end_line": 60
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 62,
+      "end_line": 64
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 66,
+      "end_line": 73
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 79,
+      "end_line": 80
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "leave_Call",
+      "start_line": 82,
+      "end_line": 93
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 99,
+      "end_line": 104
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "preview",
+      "start_line": 106,
+      "end_line": 108
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "apply",
+      "start_line": 110,
+      "end_line": 117
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 123,
+      "end_line": 124
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "leave_FunctionDef",
+      "start_line": 126,
+      "end_line": 148
+    },
+    {
+      "path": "codemods\\python_libcst.py",
+      "kind": "function",
+      "name": "_infer_type_hint",
+      "start_line": 150,
+      "end_line": 162
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "class",
+      "name": "BillingEntry",
+      "start_line": 13,
+      "end_line": 18
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "class",
+      "name": "BillingManager",
+      "start_line": 21,
+      "end_line": 151
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 24,
+      "end_line": 29
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "_ensure_dir",
+      "start_line": 31,
+      "end_line": 33
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "_load_billing",
+      "start_line": 35,
+      "end_line": 45
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "_save_billing",
+      "start_line": 47,
+      "end_line": 57
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "add_entry",
+      "start_line": 59,
+      "end_line": 71
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "get_monthly_cost",
+      "start_line": 73,
+      "end_line": 92
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "check_budget",
+      "start_line": 94,
+      "end_line": 116
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "reset_budget",
+      "start_line": 118,
+      "end_line": 137
+    },
+    {
+      "path": "core\\billing.py",
+      "kind": "function",
+      "name": "export_csv",
+      "start_line": 139,
+      "end_line": 151
+    },
+    {
+      "path": "core\\config.py",
+      "kind": "class",
+      "name": "Config",
+      "start_line": 20,
+      "end_line": 112
+    },
+    {
+      "path": "core\\config.py",
+      "kind": "function",
+      "name": "get_config",
+      "start_line": 193,
+      "end_line": 287
+    },
+    {
+      "path": "core\\config.py",
+      "kind": "function",
+      "name": "save_config",
+      "start_line": 290,
+      "end_line": 418
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "class",
+      "name": "TelemetryManager",
+      "start_line": 13,
+      "end_line": 149
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 16,
+      "end_line": 21
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "_generate_user_id",
+      "start_line": 23,
+      "end_line": 25
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "track_event",
+      "start_line": 27,
+      "end_line": 45
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "track_command",
+      "start_line": 47,
+      "end_line": 53
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "track_ai_request",
+      "start_line": 55,
+      "end_line": 61
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "track_error",
+      "start_line": 63,
+      "end_line": 69
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "track_feature_usage",
+      "start_line": 71,
+      "end_line": 76
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "_store_event",
+      "start_line": 78,
+      "end_line": 87
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "get_pending_events",
+      "start_line": 89,
+      "end_line": 106
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "clear_pending_events",
+      "start_line": 108,
+      "end_line": 115
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "transmit_events",
+      "start_line": 117,
+      "end_line": 139
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "enable",
+      "start_line": 141,
+      "end_line": 144
+    },
+    {
+      "path": "core\\telemetry.py",
+      "kind": "function",
+      "name": "disable",
+      "start_line": 146,
+      "end_line": 149
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "class",
+      "name": "CompletionMetrics",
+      "start_line": 11,
+      "end_line": 17
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "class",
+      "name": "MetricsStore",
+      "start_line": 20,
+      "end_line": 44
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "function",
+      "name": "redact",
+      "start_line": 47,
+      "end_line": 63
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 23,
+      "end_line": 25
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "function",
+      "name": "add_completion",
+      "start_line": 27,
+      "end_line": 36
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "function",
+      "name": "get_recent",
+      "start_line": 38,
+      "end_line": 40
+    },
+    {
+      "path": "core\\utils.py",
+      "kind": "function",
+      "name": "get_latest",
+      "start_line": 42,
+      "end_line": 44
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "class",
+      "name": "AIPanel",
+      "start_line": 34,
+      "end_line": 164
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "class",
+      "name": "QuickOpenDialog",
+      "start_line": 167,
+      "end_line": 233
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "class",
+      "name": "GitMenuDialog",
+      "start_line": 236,
+      "end_line": 312
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "class",
+      "name": "FileTreePanel",
+      "start_line": 315,
+      "end_line": 343
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "class",
+      "name": "DiagnosticsPane",
+      "start_line": 346,
+      "end_line": 378
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "create_app",
+      "start_line": 381,
+      "end_line": 633
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 37,
+      "end_line": 40
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 42,
+      "end_line": 53
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "toggle",
+      "start_line": 55,
+      "end_line": 57
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "run_task",
+      "start_line": 59,
+      "end_line": 108
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_diff_viewer",
+      "start_line": 144,
+      "end_line": 164
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 170,
+      "end_line": 178
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 180,
+      "end_line": 192
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show",
+      "start_line": 194,
+      "end_line": 199
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "hide",
+      "start_line": 201,
+      "end_line": 203
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "update_query",
+      "start_line": 205,
+      "end_line": 208
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "select_file",
+      "start_line": 210,
+      "end_line": 216
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "_update_results",
+      "start_line": 218,
+      "end_line": 226
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "_format_results",
+      "start_line": 228,
+      "end_line": 233
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 239,
+      "end_line": 254
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 256,
+      "end_line": 265
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show",
+      "start_line": 267,
+      "end_line": 271
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "hide",
+      "start_line": 273,
+      "end_line": 275
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "select_option",
+      "start_line": 277,
+      "end_line": 281
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_status",
+      "start_line": 283,
+      "end_line": 286
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_diff",
+      "start_line": 288,
+      "end_line": 293
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "stage_file",
+      "start_line": 295,
+      "end_line": 300
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "commit_changes",
+      "start_line": 302,
+      "end_line": 304
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "_format_menu",
+      "start_line": 306,
+      "end_line": 312
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 318,
+      "end_line": 326
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 328,
+      "end_line": 333
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "toggle",
+      "start_line": 335,
+      "end_line": 337
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "_build_tree",
+      "start_line": 339,
+      "end_line": 343
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 349,
+      "end_line": 355
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 357,
+      "end_line": 362
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "update_for_cursor",
+      "start_line": 364,
+      "end_line": 372
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "_get_text",
+      "start_line": 374,
+      "end_line": 378
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "quit_app",
+      "start_line": 441,
+      "end_line": 443
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "open_file",
+      "start_line": 446,
+      "end_line": 449
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "toggle_ai_panel",
+      "start_line": 453,
+      "end_line": 455
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "run_ai_task",
+      "start_line": 458,
+      "end_line": 460
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_quick_open",
+      "start_line": 464,
+      "end_line": 466
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "hide_quick_open",
+      "start_line": 469,
+      "end_line": 478
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "quick_open_select",
+      "start_line": 481,
+      "end_line": 489
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "menu_up",
+      "start_line": 492,
+      "end_line": 498
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "menu_down",
+      "start_line": 501,
+      "end_line": 507
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "toggle_file_tree",
+      "start_line": 511,
+      "end_line": 513
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_git_menu",
+      "start_line": 517,
+      "end_line": 519
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "ai_explain_cmd",
+      "start_line": 523,
+      "end_line": 526
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "ai_refactor_cmd",
+      "start_line": 529,
+      "end_line": 532
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "ai_fix_tests_cmd",
+      "start_line": 535,
+      "end_line": 538
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "toggle_diagnostics",
+      "start_line": 542,
+      "end_line": 545
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_hover_cmd",
+      "start_line": 549,
+      "end_line": 551
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_definition_cmd",
+      "start_line": 554,
+      "end_line": 556
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_references_cmd",
+      "start_line": 559,
+      "end_line": 561
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_rename_cmd",
+      "start_line": 564,
+      "end_line": 567
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_format_cmd",
+      "start_line": 570,
+      "end_line": 572
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_organize_imports_cmd",
+      "start_line": 575,
+      "end_line": 577
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "lsp_quick_fix_cmd",
+      "start_line": 580,
+      "end_line": 583
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "ws_format_cmd",
+      "start_line": 586,
+      "end_line": 590
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "ws_organize_imports_cmd",
+      "start_line": 593,
+      "end_line": 597
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "show_plan_viewer_cmd",
+      "start_line": 601,
+      "end_line": 603
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "plan_playground_cmd",
+      "start_line": 606,
+      "end_line": 609
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "git_blame_cmd",
+      "start_line": 613,
+      "end_line": 616
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "git_branch_switcher_cmd",
+      "start_line": 619,
+      "end_line": 622
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "stream_callback",
+      "start_line": 89,
+      "end_line": 91
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "completion_callback",
+      "start_line": 93,
+      "end_line": 103
+    },
+    {
+      "path": "editor\\app.py",
+      "kind": "function",
+      "name": "tool_callback",
+      "start_line": 114,
+      "end_line": 118
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "class",
+      "name": "BufferState",
+      "start_line": 9,
+      "end_line": 13
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "class",
+      "name": "BufferManager",
+      "start_line": 16,
+      "end_line": 95
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "open",
+      "start_line": 23,
+      "end_line": 41
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "get",
+      "start_line": 43,
+      "end_line": 53
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "list",
+      "start_line": 55,
+      "end_line": 62
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "active",
+      "start_line": 64,
+      "end_line": 73
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "activate",
+      "start_line": 75,
+      "end_line": 83
+    },
+    {
+      "path": "editor\\buffers.py",
+      "kind": "function",
+      "name": "update_text",
+      "start_line": 85,
+      "end_line": 95
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "class",
+      "name": "CommandRegistry",
+      "start_line": 20,
+      "end_line": 118
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_explain",
+      "start_line": 125,
+      "end_line": 127
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_refactor",
+      "start_line": 129,
+      "end_line": 131
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_fix_error",
+      "start_line": 133,
+      "end_line": 135
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_add_tests",
+      "start_line": 137,
+      "end_line": 142
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_fix_tests",
+      "start_line": 144,
+      "end_line": 149
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_status",
+      "start_line": 152,
+      "end_line": 196
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_diff",
+      "start_line": 198,
+      "end_line": 217
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stage",
+      "start_line": 219,
+      "end_line": 239
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_unstage",
+      "start_line": 241,
+      "end_line": 261
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_commit",
+      "start_line": 263,
+      "end_line": 291
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_history",
+      "start_line": 294,
+      "end_line": 315
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_restart",
+      "start_line": 318,
+      "end_line": 323
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_toggle",
+      "start_line": 325,
+      "end_line": 329
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_hover",
+      "start_line": 331,
+      "end_line": 335
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_definition",
+      "start_line": 337,
+      "end_line": 341
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_references",
+      "start_line": 343,
+      "end_line": 347
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_rename",
+      "start_line": 349,
+      "end_line": 353
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_format",
+      "start_line": 355,
+      "end_line": 360
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "lsp_organize_imports",
+      "start_line": 362,
+      "end_line": 367
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_apply",
+      "start_line": 370,
+      "end_line": 391
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_rollback",
+      "start_line": 393,
+      "end_line": 399
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_cleanup",
+      "start_line": 401,
+      "end_line": 407
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_playground",
+      "start_line": 409,
+      "end_line": 432
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_promote",
+      "start_line": 434,
+      "end_line": 440
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_plan_cleanup_playground",
+      "start_line": 442,
+      "end_line": 448
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_blame",
+      "start_line": 451,
+      "end_line": 455
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stash_save",
+      "start_line": 458,
+      "end_line": 473
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stash_list",
+      "start_line": 475,
+      "end_line": 492
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stash_pop",
+      "start_line": 494,
+      "end_line": 512
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stash_apply",
+      "start_line": 514,
+      "end_line": 532
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_stash_drop",
+      "start_line": 534,
+      "end_line": 552
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "git_branch_switcher",
+      "start_line": 555,
+      "end_line": 559
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "index_rebuild",
+      "start_line": 562,
+      "end_line": 581
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "index_rebuild_emb",
+      "start_line": 583,
+      "end_line": 595
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "index_stats",
+      "start_line": 597,
+      "end_line": 640
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "index_pause",
+      "start_line": 642,
+      "end_line": 646
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "index_resume",
+      "start_line": 648,
+      "end_line": 654
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_spec",
+      "start_line": 657,
+      "end_line": 663
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_gen_tests",
+      "start_line": 665,
+      "end_line": 672
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_implement",
+      "start_line": 674,
+      "end_line": 681
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ai_pipeline",
+      "start_line": 683,
+      "end_line": 692
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "budget_status",
+      "start_line": 694,
+      "end_line": 698
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "budget_set",
+      "start_line": 700,
+      "end_line": 704
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "budget_reset",
+      "start_line": 706,
+      "end_line": 710
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "budget_export",
+      "start_line": 712,
+      "end_line": 716
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_list",
+      "start_line": 719,
+      "end_line": 731
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_load",
+      "start_line": 733,
+      "end_line": 738
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_unload",
+      "start_line": 740,
+      "end_line": 745
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_enable",
+      "start_line": 747,
+      "end_line": 752
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_disable",
+      "start_line": 754,
+      "end_line": 759
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_discover",
+      "start_line": 761,
+      "end_line": 770
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "plugin_validate",
+      "start_line": 772,
+      "end_line": 782
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "codemod",
+      "start_line": 784,
+      "end_line": 788
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ws_refactor_format",
+      "start_line": 789,
+      "end_line": 805
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ws_refactor_organize_imports",
+      "start_line": 807,
+      "end_line": 823
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "ws_refactor_rename",
+      "start_line": 825,
+      "end_line": 841
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 23,
+      "end_line": 30
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "register",
+      "start_line": 32,
+      "end_line": 40
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "execute",
+      "start_line": 42,
+      "end_line": 56
+    },
+    {
+      "path": "editor\\commands.py",
+      "kind": "function",
+      "name": "run_ai_task",
+      "start_line": 58,
+      "end_line": 118
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "class",
+      "name": "DiagnosticItem",
+      "start_line": 11,
+      "end_line": 38
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "class",
+      "name": "DiagnosticsStore",
+      "start_line": 41,
+      "end_line": 70
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "class",
+      "name": "DiagnosticsOverlay",
+      "start_line": 73,
+      "end_line": 127
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "class",
+      "name": "LSPDiagnosticsManager",
+      "start_line": 130,
+      "end_line": 187
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 14,
+      "end_line": 18
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "start_line",
+      "start_line": 21,
+      "end_line": 23
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "end_line",
+      "start_line": 26,
+      "end_line": 28
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "start_char",
+      "start_line": 31,
+      "end_line": 33
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "end_char",
+      "start_line": 36,
+      "end_line": 38
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 44,
+      "end_line": 46
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "update_diagnostics",
+      "start_line": 48,
+      "end_line": 60
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "get_diagnostics",
+      "start_line": 62,
+      "end_line": 65
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "get_line_diagnostics",
+      "start_line": 67,
+      "end_line": 70
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 83,
+      "end_line": 85
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "toggle",
+      "start_line": 87,
+      "end_line": 89
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "apply_to_line",
+      "start_line": 91,
+      "end_line": 110
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "get_hover_tooltip",
+      "start_line": 112,
+      "end_line": 127
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 133,
+      "end_line": 136
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "start_language_server",
+      "start_line": 138,
+      "end_line": 148
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "stop_language_server",
+      "start_line": 150,
+      "end_line": 154
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "restart_language_server",
+      "start_line": 156,
+      "end_line": 159
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "notify_file_opened",
+      "start_line": 161,
+      "end_line": 165
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "notify_file_changed",
+      "start_line": 167,
+      "end_line": 171
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "_detect_language",
+      "start_line": 173,
+      "end_line": 177
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "_on_diagnostics",
+      "start_line": 179,
+      "end_line": 181
+    },
+    {
+      "path": "editor\\diagnostics.py",
+      "kind": "function",
+      "name": "shutdown",
+      "start_line": 183,
+      "end_line": 187
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "class",
+      "name": "Hunk",
+      "start_line": 16,
+      "end_line": 23
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "split_hunks",
+      "start_line": 26,
+      "end_line": 72
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "apply_selected_hunks",
+      "start_line": 75,
+      "end_line": 123
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "class",
+      "name": "DiffViewer",
+      "start_line": 126,
+      "end_line": 244
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "show_diff_viewer",
+      "start_line": 247,
+      "end_line": 317
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 19,
+      "end_line": 23
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 129,
+      "end_line": 144
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 146,
+      "end_line": 165
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "toggle_hunk",
+      "start_line": 167,
+      "end_line": 171
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "next_hunk",
+      "start_line": 173,
+      "end_line": 177
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "prev_hunk",
+      "start_line": 179,
+      "end_line": 183
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "apply_selected",
+      "start_line": 185,
+      "end_line": 189
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "apply_all",
+      "start_line": 191,
+      "end_line": 196
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "discard",
+      "start_line": 198,
+      "end_line": 201
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "_update_display",
+      "start_line": 203,
+      "end_line": 207
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "_format_left_panel",
+      "start_line": 209,
+      "end_line": 224
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "_format_right_panel",
+      "start_line": 226,
+      "end_line": 236
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "_format_status",
+      "start_line": 238,
+      "end_line": 244
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "on_apply",
+      "start_line": 261,
+      "end_line": 264
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "on_discard",
+      "start_line": 266,
+      "end_line": 268
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "next_hunk",
+      "start_line": 276,
+      "end_line": 277
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "prev_hunk",
+      "start_line": 280,
+      "end_line": 281
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "toggle_hunk",
+      "start_line": 284,
+      "end_line": 285
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "apply_selected",
+      "start_line": 288,
+      "end_line": 289
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "apply_all",
+      "start_line": 292,
+      "end_line": 293
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "discard",
+      "start_line": 296,
+      "end_line": 297
+    },
+    {
+      "path": "editor\\diffview.py",
+      "kind": "function",
+      "name": "quit_viewer",
+      "start_line": 300,
+      "end_line": 302
+    },
+    {
+      "path": "editor\\filetree.py",
+      "kind": "function",
+      "name": "get_directory_tree",
+      "start_line": 8,
+      "end_line": 44
+    },
+    {
+      "path": "editor\\filetree.py",
+      "kind": "function",
+      "name": "flatten_tree_for_display",
+      "start_line": 47,
+      "end_line": 73
+    },
+    {
+      "path": "editor\\filetree.py",
+      "kind": "function",
+      "name": "add_directory",
+      "start_line": 61,
+      "end_line": 70
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "class",
+      "name": "GitStatusGutter",
+      "start_line": 10,
+      "end_line": 136
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 13,
+      "end_line": 16
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "_find_repo_root",
+      "start_line": 18,
+      "end_line": 32
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "is_git_repo",
+      "start_line": 34,
+      "end_line": 36
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "get_status_marks",
+      "start_line": 38,
+      "end_line": 86
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "_parse_diff_output",
+      "start_line": 88,
+      "end_line": 123
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "invalidate_cache",
+      "start_line": 125,
+      "end_line": 131
+    },
+    {
+      "path": "editor\\gutter.py",
+      "kind": "function",
+      "name": "refresh_repo_root",
+      "start_line": 133,
+      "end_line": 136
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "class",
+      "name": "InlineSuggest",
+      "start_line": 10,
+      "end_line": 95
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 13,
+      "end_line": 17
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "should_trigger",
+      "start_line": 19,
+      "end_line": 34
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "trigger_suggestion",
+      "start_line": 36,
+      "end_line": 50
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "accept_suggestion",
+      "start_line": 83,
+      "end_line": 87
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "dismiss_suggestion",
+      "start_line": 89,
+      "end_line": 91
+    },
+    {
+      "path": "editor\\inline_suggest.py",
+      "kind": "function",
+      "name": "get_current_suggestion",
+      "start_line": 93,
+      "end_line": 95
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "class",
+      "name": "LSPActionHandler",
+      "start_line": 20,
+      "end_line": 270
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "class",
+      "name": "HoverPopup",
+      "start_line": 273,
+      "end_line": 295
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "class",
+      "name": "ReferencesDialog",
+      "start_line": 298,
+      "end_line": 342
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "class",
+      "name": "RenameDialog",
+      "start_line": 345,
+      "end_line": 384
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 23,
+      "end_line": 27
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "get_client",
+      "start_line": 29,
+      "end_line": 31
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "register_client",
+      "start_line": 33,
+      "end_line": 35
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "_decode_semantic_tokens",
+      "start_line": 215,
+      "end_line": 251
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "_get_client_for_file",
+      "start_line": 266,
+      "end_line": 270
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 276,
+      "end_line": 278
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 280,
+      "end_line": 291
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "hide",
+      "start_line": 293,
+      "end_line": 295
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 301,
+      "end_line": 307
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 309,
+      "end_line": 316
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "select",
+      "start_line": 318,
+      "end_line": 322
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "next_ref",
+      "start_line": 324,
+      "end_line": 328
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "prev_ref",
+      "start_line": 330,
+      "end_line": 334
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "_format_refs",
+      "start_line": 336,
+      "end_line": 342
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 348,
+      "end_line": 352
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 354,
+      "end_line": 372
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "do_rename",
+      "start_line": 374,
+      "end_line": 380
+    },
+    {
+      "path": "editor\\lsp_actions.py",
+      "kind": "function",
+      "name": "cancel",
+      "start_line": 382,
+      "end_line": 384
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "class",
+      "name": "PipelineView",
+      "start_line": 18,
+      "end_line": 245
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "show_pipeline_view",
+      "start_line": 248,
+      "end_line": 305
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 21,
+      "end_line": 41
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 43,
+      "end_line": 57
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_pipeline",
+      "start_line": 59,
+      "end_line": 71
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_spec",
+      "start_line": 92,
+      "end_line": 103
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_tests",
+      "start_line": 118,
+      "end_line": 129
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_code",
+      "start_line": 147,
+      "end_line": 158
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "close",
+      "start_line": 176,
+      "end_line": 179
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "_update_display",
+      "start_line": 181,
+      "end_line": 184
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "_format_title",
+      "start_line": 186,
+      "end_line": 188
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "_format_status",
+      "start_line": 190,
+      "end_line": 211
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "_format_content",
+      "start_line": 213,
+      "end_line": 245
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "quit_view",
+      "start_line": 265,
+      "end_line": 266
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_pipeline_key",
+      "start_line": 269,
+      "end_line": 270
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_spec_key",
+      "start_line": 273,
+      "end_line": 274
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_tests_key",
+      "start_line": 277,
+      "end_line": 278
+    },
+    {
+      "path": "editor\\pipelineview.py",
+      "kind": "function",
+      "name": "run_code_key",
+      "start_line": 281,
+      "end_line": 282
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "class",
+      "name": "PlanStepItem",
+      "start_line": 24,
+      "end_line": 33
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "class",
+      "name": "PlanViewer",
+      "start_line": 36,
+      "end_line": 376
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "show_plan_viewer",
+      "start_line": 379,
+      "end_line": 449
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 27,
+      "end_line": 33
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 39,
+      "end_line": 76
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 78,
+      "end_line": 109
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "toggle_step",
+      "start_line": 111,
+      "end_line": 115
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "next_step",
+      "start_line": 117,
+      "end_line": 123
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "prev_step",
+      "start_line": 125,
+      "end_line": 131
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "apply_selected",
+      "start_line": 217,
+      "end_line": 221
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "apply_all",
+      "start_line": 223,
+      "end_line": 227
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_start_apply",
+      "start_line": 229,
+      "end_line": 237
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "checkout_branch",
+      "start_line": 253,
+      "end_line": 262
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "rollback",
+      "start_line": 264,
+      "end_line": 269
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "apply_playground",
+      "start_line": 271,
+      "end_line": 275
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_start_playground_apply",
+      "start_line": 277,
+      "end_line": 285
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "promote_playground",
+      "start_line": 302,
+      "end_line": 308
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "open_in_editor",
+      "start_line": 310,
+      "end_line": 315
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "cleanup_playground",
+      "start_line": 317,
+      "end_line": 322
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_update_display",
+      "start_line": 324,
+      "end_line": 328
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_format_title",
+      "start_line": 331,
+      "end_line": 333
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_format_rationale",
+      "start_line": 335,
+      "end_line": 337
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_format_steps",
+      "start_line": 339,
+      "end_line": 349
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_format_current_diff",
+      "start_line": 351,
+      "end_line": 370
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "_format_status",
+      "start_line": 372,
+      "end_line": 376
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "on_apply",
+      "start_line": 392,
+      "end_line": 396
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "on_discard",
+      "start_line": 398,
+      "end_line": 400
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "next_step",
+      "start_line": 408,
+      "end_line": 409
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "prev_step",
+      "start_line": 412,
+      "end_line": 413
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "toggle_step",
+      "start_line": 416,
+      "end_line": 417
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "load_diff",
+      "start_line": 420,
+      "end_line": 421
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "apply_all",
+      "start_line": 424,
+      "end_line": 425
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "discard",
+      "start_line": 428,
+      "end_line": 429
+    },
+    {
+      "path": "editor\\planview.py",
+      "kind": "function",
+      "name": "quit_viewer",
+      "start_line": 432,
+      "end_line": 434
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "class",
+      "name": "QuickFixManager",
+      "start_line": 16,
+      "end_line": 144
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "_get_modal_keybindings",
+      "start_line": 87,
+      "end_line": 99
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "_workspace_edit_to_diff",
+      "start_line": 126,
+      "end_line": 144
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "accept",
+      "start_line": 58,
+      "end_line": 62
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "cancel",
+      "start_line": 64,
+      "end_line": 65
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "_",
+      "start_line": 92,
+      "end_line": 93
+    },
+    {
+      "path": "editor\\quickfix.py",
+      "kind": "function",
+      "name": "_",
+      "start_line": 96,
+      "end_line": 97
+    },
+    {
+      "path": "editor\\search.py",
+      "kind": "function",
+      "name": "get_project_files",
+      "start_line": 20,
+      "end_line": 46
+    },
+    {
+      "path": "editor\\search.py",
+      "kind": "function",
+      "name": "fuzzy_search_files",
+      "start_line": 49,
+      "end_line": 67
+    },
+    {
+      "path": "editor\\search.py",
+      "kind": "function",
+      "name": "fuzz_ratio",
+      "start_line": 11,
+      "end_line": 12
+    },
+    {
+      "path": "editor\\search.py",
+      "kind": "class",
+      "name": "process",
+      "start_line": 14,
+      "end_line": 17
+    },
+    {
+      "path": "editor\\search.py",
+      "kind": "function",
+      "name": "extract",
+      "start_line": 16,
+      "end_line": 17
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "class",
+      "name": "SemanticTokenRenderer",
+      "start_line": 8,
+      "end_line": 119
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "class",
+      "name": "SemanticTokensManager",
+      "start_line": 122,
+      "end_line": 147
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 25,
+      "end_line": 26
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "_get_token_styles",
+      "start_line": 28,
+      "end_line": 53
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "render_tokens",
+      "start_line": 55,
+      "end_line": 105
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "_get_token_style",
+      "start_line": 107,
+      "end_line": 119
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 125,
+      "end_line": 128
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "update_tokens",
+      "start_line": 130,
+      "end_line": 133
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "get_rendered_text",
+      "start_line": 135,
+      "end_line": 138
+    },
+    {
+      "path": "editor\\semantics.py",
+      "kind": "function",
+      "name": "clear_cache",
+      "start_line": 140,
+      "end_line": 147
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "class",
+      "name": "StatusBar",
+      "start_line": 10,
+      "end_line": 69
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 13,
+      "end_line": 16
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "function",
+      "name": "set_message",
+      "start_line": 18,
+      "end_line": 21
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "function",
+      "name": "set_index_status",
+      "start_line": 23,
+      "end_line": 26
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "function",
+      "name": "update_metrics",
+      "start_line": 28,
+      "end_line": 30
+    },
+    {
+      "path": "editor\\statusbar.py",
+      "kind": "function",
+      "name": "_format_status",
+      "start_line": 32,
+      "end_line": 69
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "class",
+      "name": "TelemetryWizard",
+      "start_line": 17,
+      "end_line": 169
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "run_telemetry_wizard",
+      "start_line": 172,
+      "end_line": 206
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 20,
+      "end_line": 61
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "get_layout",
+      "start_line": 63,
+      "end_line": 65
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "_on_continue",
+      "start_line": 67,
+      "end_line": 155
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "_on_learn_more",
+      "start_line": 157,
+      "end_line": 160
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "show",
+      "start_line": 162,
+      "end_line": 165
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "hide",
+      "start_line": 167,
+      "end_line": 169
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "on_complete",
+      "start_line": 176,
+      "end_line": 178
+    },
+    {
+      "path": "editor\\telemetry_wizard.py",
+      "kind": "function",
+      "name": "cancel",
+      "start_line": 187,
+      "end_line": 189
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "class",
+      "name": "RefactorPlan",
+      "start_line": 14,
+      "end_line": 24
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "class",
+      "name": "WorkspaceRefactorManager",
+      "start_line": 27,
+      "end_line": 311
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "summary",
+      "start_line": 22,
+      "end_line": 24
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 30,
+      "end_line": 33
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "create_checkpoint",
+      "start_line": 156,
+      "end_line": 163
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "rollback_to_checkpoint",
+      "start_line": 165,
+      "end_line": 181
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_apply_changes",
+      "start_line": 231,
+      "end_line": 239
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_rollback_changes",
+      "start_line": 241,
+      "end_line": 248
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_generate_diff",
+      "start_line": 250,
+      "end_line": 263
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_is_git_repo",
+      "start_line": 265,
+      "end_line": 267
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_create_temp_branch",
+      "start_line": 269,
+      "end_line": 288
+    },
+    {
+      "path": "editor\\workspace_refactor.py",
+      "kind": "function",
+      "name": "_cleanup_temp_branch",
+      "start_line": 290,
+      "end_line": 311
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "class",
+      "name": "CodemodTarget",
+      "start_line": 19,
+      "end_line": 23
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "class",
+      "name": "WorkspaceCodemodRunner",
+      "start_line": 26,
+      "end_line": 216
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 29,
+      "end_line": 31
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "_load_available_mods",
+      "start_line": 33,
+      "end_line": 67
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "show_codemod_modal",
+      "start_line": 69,
+      "end_line": 78
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "get_target_files",
+      "start_line": 80,
+      "end_line": 110
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "generate_diffs",
+      "start_line": 112,
+      "end_line": 143
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "apply_codemods",
+      "start_line": 145,
+      "end_line": 188
+    },
+    {
+      "path": "editor\\ws_codemod.py",
+      "kind": "function",
+      "name": "run_codemod_workflow",
+      "start_line": 190,
+      "end_line": 216
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "class",
+      "name": "Chunk",
+      "start_line": 17,
+      "end_line": 23
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "class",
+      "name": "Hit",
+      "start_line": 26,
+      "end_line": 31
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "class",
+      "name": "EmbIndex",
+      "start_line": 34,
+      "end_line": 190
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "chunk_file",
+      "start_line": 193,
+      "end_line": 235
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "build_or_load_embeddings",
+      "start_line": 238,
+      "end_line": 286
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_build_embeddings_index",
+      "start_line": 289,
+      "end_line": 350
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_embed_texts",
+      "start_line": 353,
+      "end_line": 389
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_should_index_file",
+      "start_line": 392,
+      "end_line": 410
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_is_ignored_dir",
+      "start_line": 413,
+      "end_line": 420
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_file_hash",
+      "start_line": 423,
+      "end_line": 429
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "update_embeddings_for_paths",
+      "start_line": 432,
+      "end_line": 574
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 37,
+      "end_line": 48
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "search",
+      "start_line": 50,
+      "end_line": 85
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_embed_query",
+      "start_line": 87,
+      "end_line": 107
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_hash_bow",
+      "start_line": 109,
+      "end_line": 119
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_matches_language",
+      "start_line": 121,
+      "end_line": 127
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "_get_path_by_id",
+      "start_line": 129,
+      "end_line": 134
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "save_to_file",
+      "start_line": 136,
+      "end_line": 159
+    },
+    {
+      "path": "indexer\\embeddings.py",
+      "kind": "function",
+      "name": "load_from_file",
+      "start_line": 162,
+      "end_line": 190
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "class",
+      "name": "GraphIndex",
+      "start_line": 14,
+      "end_line": 103
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "class",
+      "name": "PythonGraphBuilder",
+      "start_line": 106,
+      "end_line": 156
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "class",
+      "name": "JSTSGraphBuilder",
+      "start_line": 159,
+      "end_line": 214
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "build_or_load_graph",
+      "start_line": 217,
+      "end_line": 253
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "_build_graph",
+      "start_line": 256,
+      "end_line": 322
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "update_graph_for_file",
+      "start_line": 325,
+      "end_line": 421
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 17,
+      "end_line": 22
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "neighbors",
+      "start_line": 24,
+      "end_line": 72
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "save_to_file",
+      "start_line": 74,
+      "end_line": 83
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "load_from_file",
+      "start_line": 86,
+      "end_line": 103
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 109,
+      "end_line": 111
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "process_file",
+      "start_line": 113,
+      "end_line": 136
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "build_graph",
+      "start_line": 138,
+      "end_line": 156
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 162,
+      "end_line": 164
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "process_file",
+      "start_line": 166,
+      "end_line": 194
+    },
+    {
+      "path": "indexer\\graph.py",
+      "kind": "function",
+      "name": "build_graph",
+      "start_line": 196,
+      "end_line": 214
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "class",
+      "name": "Snippet",
+      "start_line": 10,
+      "end_line": 17
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "class",
+      "name": "Reranker",
+      "start_line": 20,
+      "end_line": 35
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "class",
+      "name": "BM25Reranker",
+      "start_line": 38,
+      "end_line": 103
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "class",
+      "name": "CrossEncoderReranker",
+      "start_line": 106,
+      "end_line": 154
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "class",
+      "name": "HybridReranker",
+      "start_line": 157,
+      "end_line": 184
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "get_reranker",
+      "start_line": 191,
+      "end_line": 196
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "rerank",
+      "start_line": 24,
+      "end_line": 35
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 41,
+      "end_line": 43
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "rerank",
+      "start_line": 45,
+      "end_line": 90
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "_tokenize",
+      "start_line": 92,
+      "end_line": 96
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "_idf",
+      "start_line": 98,
+      "end_line": 103
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 109,
+      "end_line": 112
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "_load_model",
+      "start_line": 114,
+      "end_line": 126
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "rerank",
+      "start_line": 128,
+      "end_line": 154
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 160,
+      "end_line": 164
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "rerank",
+      "start_line": 166,
+      "end_line": 171
+    },
+    {
+      "path": "indexer\\rerank.py",
+      "kind": "function",
+      "name": "_create_reranker",
+      "start_line": 173,
+      "end_line": 184
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "class",
+      "name": "SymbolSpan",
+      "start_line": 13,
+      "end_line": 42
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "class",
+      "name": "SymbolsIndex",
+      "start_line": 45,
+      "end_line": 121
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "class",
+      "name": "PythonIndexer",
+      "start_line": 124,
+      "end_line": 151
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "class",
+      "name": "JSTSIndexer",
+      "start_line": 154,
+      "end_line": 190
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "build_or_load_symbols",
+      "start_line": 193,
+      "end_line": 257
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "update_symbols_for_file",
+      "start_line": 260,
+      "end_line": 309
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "query_symbols",
+      "start_line": 312,
+      "end_line": 315
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 16,
+      "end_line": 21
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "to_dict",
+      "start_line": 23,
+      "end_line": 31
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "from_dict",
+      "start_line": 34,
+      "end_line": 42
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 48,
+      "end_line": 50
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "add_symbol",
+      "start_line": 52,
+      "end_line": 54
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "query",
+      "start_line": 56,
+      "end_line": 93
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "_matches_language",
+      "start_line": 95,
+      "end_line": 101
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "save_to_file",
+      "start_line": 103,
+      "end_line": 110
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "load_from_file",
+      "start_line": 113,
+      "end_line": 121
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "index_file",
+      "start_line": 127,
+      "end_line": 151
+    },
+    {
+      "path": "indexer\\symbols.py",
+      "kind": "function",
+      "name": "index_file",
+      "start_line": 157,
+      "end_line": 190
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "class",
+      "name": "FileChangeEvent",
+      "start_line": 16,
+      "end_line": 26
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "class",
+      "name": "IndexWatcher",
+      "start_line": 29,
+      "end_line": 352
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "get_watcher",
+      "start_line": 359,
+      "end_line": 364
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "start_watching",
+      "start_line": 367,
+      "end_line": 370
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "stop_watching",
+      "start_line": 373,
+      "end_line": 378
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 19,
+      "end_line": 23
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "__repr__",
+      "start_line": 25,
+      "end_line": 26
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 32,
+      "end_line": 61
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "register_callback",
+      "start_line": 63,
+      "end_line": 65
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "start",
+      "start_line": 67,
+      "end_line": 94
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "stop",
+      "start_line": 96,
+      "end_line": 110
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_start_fs_watcher",
+      "start_line": 112,
+      "end_line": 169
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_start_polling_watcher",
+      "start_line": 171,
+      "end_line": 229
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_queue_event",
+      "start_line": 231,
+      "end_line": 238
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_process_events_loop",
+      "start_line": 240,
+      "end_line": 276
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_process_events_batch",
+      "start_line": 278,
+      "end_line": 300
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_should_watch_file",
+      "start_line": 302,
+      "end_line": 318
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_is_ignored_dir",
+      "start_line": 320,
+      "end_line": 326
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "_is_ignored_path",
+      "start_line": 328,
+      "end_line": 348
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "get_stats",
+      "start_line": 350,
+      "end_line": 352
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "poll_loop",
+      "start_line": 175,
+      "end_line": 222
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "class",
+      "name": "WatcherHandler",
+      "start_line": 118,
+      "end_line": 148
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 119,
+      "end_line": 120
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "on_created",
+      "start_line": 122,
+      "end_line": 126
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "on_modified",
+      "start_line": 128,
+      "end_line": 132
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "on_deleted",
+      "start_line": 134,
+      "end_line": 138
+    },
+    {
+      "path": "indexer\\watch.py",
+      "kind": "function",
+      "name": "on_moved",
+      "start_line": 140,
+      "end_line": 148
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "class",
+      "name": "LSPClient",
+      "start_line": 17,
+      "end_line": 429
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 20,
+      "end_line": 33
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "set_diagnostics_callback",
+      "start_line": 35,
+      "end_line": 37
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "start",
+      "start_line": 39,
+      "end_line": 72
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "stop",
+      "start_line": 74,
+      "end_line": 83
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "restart",
+      "start_line": 85,
+      "end_line": 89
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_get_command",
+      "start_line": 91,
+      "end_line": 96
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_initialize",
+      "start_line": 98,
+      "end_line": 120
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "did_open",
+      "start_line": 122,
+      "end_line": 135
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "did_change",
+      "start_line": 137,
+      "end_line": 160
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_get_language_id",
+      "start_line": 315,
+      "end_line": 319
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_send_request",
+      "start_line": 321,
+      "end_line": 343
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_send_notification",
+      "start_line": 345,
+      "end_line": 361
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_read_responses",
+      "start_line": 363,
+      "end_line": 400
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_handle_response",
+      "start_line": 402,
+      "end_line": 415
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_handle_notification",
+      "start_line": 417,
+      "end_line": 420
+    },
+    {
+      "path": "language\\lsp_client.py",
+      "kind": "function",
+      "name": "_handle_publish_diagnostics",
+      "start_line": 422,
+      "end_line": 429
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "class",
+      "name": "ExampleProvider",
+      "start_line": 7,
+      "end_line": 41
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "name",
+      "start_line": 11,
+      "end_line": 12
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "version",
+      "start_line": 15,
+      "end_line": 16
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "description",
+      "start_line": 19,
+      "end_line": 20
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "author",
+      "start_line": 23,
+      "end_line": 24
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "get_models",
+      "start_line": 26,
+      "end_line": 28
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "complete_chat",
+      "start_line": 30,
+      "end_line": 37
+    },
+    {
+      "path": "plugins\\example_provider.py",
+      "kind": "function",
+      "name": "check_available",
+      "start_line": 39,
+      "end_line": 41
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "class",
+      "name": "PluginHost",
+      "start_line": 18,
+      "end_line": 196
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 21,
+      "end_line": 25
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "function",
+      "name": "_check_permission",
+      "start_line": 147,
+      "end_line": 165
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "function",
+      "name": "_error_response",
+      "start_line": 167,
+      "end_line": 176
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "function",
+      "name": "_signal_handler",
+      "start_line": 189,
+      "end_line": 192
+    },
+    {
+      "path": "plugins\\host.py",
+      "kind": "function",
+      "name": "stop",
+      "start_line": 194,
+      "end_line": 196
+    },
+    {
+      "path": "plugins\\ipc.py",
+      "kind": "class",
+      "name": "PluginIPCClient",
+      "start_line": 18,
+      "end_line": 207
+    },
+    {
+      "path": "plugins\\ipc.py",
+      "kind": "class",
+      "name": "PluginIPCManager",
+      "start_line": 210,
+      "end_line": 275
+    },
+    {
+      "path": "plugins\\ipc.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 21,
+      "end_line": 29
+    },
+    {
+      "path": "plugins\\ipc.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 213,
+      "end_line": 215
+    },
+    {
+      "path": "plugins\\ipc.py",
+      "kind": "function",
+      "name": "is_plugin_running",
+      "start_line": 260,
+      "end_line": 262
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "class",
+      "name": "PluginPermissions",
+      "start_line": 10,
+      "end_line": 61
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "get_default_permissions",
+      "start_line": 64,
+      "end_line": 104
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "validate_permissions",
+      "start_line": 107,
+      "end_line": 134
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 13,
+      "end_line": 20
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "can_call_api",
+      "start_line": 22,
+      "end_line": 30
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "can_access_path",
+      "start_line": 32,
+      "end_line": 53
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "get_timeout",
+      "start_line": 55,
+      "end_line": 57
+    },
+    {
+      "path": "plugins\\permissions.py",
+      "kind": "function",
+      "name": "get_memory_limit",
+      "start_line": 59,
+      "end_line": 61
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "PluginInfo",
+      "start_line": 18,
+      "end_line": 26
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "PluginBase",
+      "start_line": 29,
+      "end_line": 62
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "ProviderPlugin",
+      "start_line": 65,
+      "end_line": 81
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "ToolPlugin",
+      "start_line": 84,
+      "end_line": 90
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "CommandPlugin",
+      "start_line": 93,
+      "end_line": 99
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "class",
+      "name": "PluginManager",
+      "start_line": 102,
+      "end_line": 425
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "name",
+      "start_line": 34,
+      "end_line": 36
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "version",
+      "start_line": 40,
+      "end_line": 42
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "description",
+      "start_line": 46,
+      "end_line": 48
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "author",
+      "start_line": 52,
+      "end_line": 54
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "initialize",
+      "start_line": 56,
+      "end_line": 58
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "shutdown",
+      "start_line": 60,
+      "end_line": 62
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_models",
+      "start_line": 69,
+      "end_line": 71
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "complete_chat",
+      "start_line": 74,
+      "end_line": 76
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "check_available",
+      "start_line": 79,
+      "end_line": 81
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_tools",
+      "start_line": 88,
+      "end_line": 90
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_commands",
+      "start_line": 97,
+      "end_line": 99
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 105,
+      "end_line": 117
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "discover_plugins",
+      "start_line": 119,
+      "end_line": 141
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "load_plugin",
+      "start_line": 143,
+      "end_line": 195
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "unload_plugin",
+      "start_line": 197,
+      "end_line": 216
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "enable_plugin",
+      "start_line": 218,
+      "end_line": 236
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "disable_plugin",
+      "start_line": 238,
+      "end_line": 256
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_providers",
+      "start_line": 258,
+      "end_line": 265
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_tools",
+      "start_line": 267,
+      "end_line": 275
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_commands",
+      "start_line": 277,
+      "end_line": 285
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "list_plugins",
+      "start_line": 287,
+      "end_line": 289
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "_import_plugin_module",
+      "start_line": 291,
+      "end_line": 315
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "_find_plugin_classes",
+      "start_line": 317,
+      "end_line": 330
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "set_safe_mode",
+      "start_line": 332,
+      "end_line": 335
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "load_plugin_sandboxed",
+      "start_line": 337,
+      "end_line": 376
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "unload_plugin_sandboxed",
+      "start_line": 378,
+      "end_line": 395
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "call_sandboxed_plugin",
+      "start_line": 397,
+      "end_line": 403
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "get_sandboxed_plugins",
+      "start_line": 405,
+      "end_line": 407
+    },
+    {
+      "path": "plugins\\__init__.py",
+      "kind": "function",
+      "name": "restart_sandboxed_plugin",
+      "start_line": 409,
+      "end_line": 425
+    },
+    {
+      "path": "scripts\\generate_cli_docs.py",
+      "kind": "function",
+      "name": "run_command",
+      "start_line": 8,
+      "end_line": 15
+    },
+    {
+      "path": "scripts\\generate_cli_docs.py",
+      "kind": "function",
+      "name": "generate_cli_docs",
+      "start_line": 17,
+      "end_line": 108
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "class",
+      "name": "TestRenameExportCodemod",
+      "start_line": 7,
+      "end_line": 25
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "class",
+      "name": "TestRemoveConsoleCodemod",
+      "start_line": 28,
+      "end_line": 45
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "class",
+      "name": "TestOrganizeImportsBestEffortCodemod",
+      "start_line": 48,
+      "end_line": 75
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_preview_rename_export",
+      "start_line": 10,
+      "end_line": 16
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_apply_rename_export",
+      "start_line": 18,
+      "end_line": 25
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_preview_remove_console_log",
+      "start_line": 31,
+      "end_line": 36
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_apply_remove_console_log",
+      "start_line": 38,
+      "end_line": 45
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_preview_organize_imports",
+      "start_line": 51,
+      "end_line": 61
+    },
+    {
+      "path": "tests\\test_codemods_js.py",
+      "kind": "function",
+      "name": "test_apply_organize_imports",
+      "start_line": 63,
+      "end_line": 75
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "class",
+      "name": "TestRenameSymbolCodemod",
+      "start_line": 8,
+      "end_line": 41
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "class",
+      "name": "TestConvertPrintToLoggingCodemod",
+      "start_line": 44,
+      "end_line": 62
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "class",
+      "name": "TestAddTypeHintsCodemod",
+      "start_line": 65,
+      "end_line": 88
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_preview_rename_function",
+      "start_line": 11,
+      "end_line": 22
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_apply_rename_function",
+      "start_line": 24,
+      "end_line": 41
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_preview_print_to_logging",
+      "start_line": 47,
+      "end_line": 53
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_apply_print_to_logging",
+      "start_line": 55,
+      "end_line": 62
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_preview_add_type_hints",
+      "start_line": 68,
+      "end_line": 77
+    },
+    {
+      "path": "tests\\test_codemods_python.py",
+      "kind": "function",
+      "name": "test_apply_add_type_hints",
+      "start_line": 79,
+      "end_line": 88
+    },
+    {
+      "path": "tests\\test_config.py",
+      "kind": "function",
+      "name": "test_default_config",
+      "start_line": 9,
+      "end_line": 25
+    },
+    {
+      "path": "tests\\test_config.py",
+      "kind": "function",
+      "name": "test_config_from_file",
+      "start_line": 28,
+      "end_line": 141
+    },
+    {
+      "path": "tests\\test_context.py",
+      "kind": "function",
+      "name": "test_estimate_tokens",
+      "start_line": 9,
+      "end_line": 13
+    },
+    {
+      "path": "tests\\test_context.py",
+      "kind": "function",
+      "name": "test_gather_context_with_selection",
+      "start_line": 16,
+      "end_line": 33
+    },
+    {
+      "path": "tests\\test_context.py",
+      "kind": "function",
+      "name": "test_gather_context_budget_respected",
+      "start_line": 36,
+      "end_line": 51
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "class",
+      "name": "TestContextV2",
+      "start_line": 10,
+      "end_line": 130
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_context_bundle_init",
+      "start_line": 13,
+      "end_line": 24
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_empty",
+      "start_line": 26,
+      "end_line": 38
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_selection_only",
+      "start_line": 40,
+      "end_line": 55
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_with_files",
+      "start_line": 57,
+      "end_line": 75
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_symbol_query",
+      "start_line": 77,
+      "end_line": 94
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_budget_respect",
+      "start_line": 96,
+      "end_line": 115
+    },
+    {
+      "path": "tests\\test_context_v2.py",
+      "kind": "function",
+      "name": "test_gather_context_v2_weights",
+      "start_line": 117,
+      "end_line": 130
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "class",
+      "name": "TestEmbeddingsRetriever",
+      "start_line": 12,
+      "end_line": 110
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_chunk_file_basic",
+      "start_line": 15,
+      "end_line": 23
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_chunk_file_overlap",
+      "start_line": 25,
+      "end_line": 36
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_emb_index_init",
+      "start_line": 38,
+      "end_line": 44
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_build_embeddings_empty_project",
+      "start_line": 46,
+      "end_line": 57
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_build_embeddings_small_project",
+      "start_line": 59,
+      "end_line": 77
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_embeddings_persistence",
+      "start_line": 79,
+      "end_line": 95
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_embeddings_search_no_vectors",
+      "start_line": 97,
+      "end_line": 101
+    },
+    {
+      "path": "tests\\test_embeddings_retriever.py",
+      "kind": "function",
+      "name": "test_embeddings_fallback_hash",
+      "start_line": 103,
+      "end_line": 110
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "temp_git_repo",
+      "start_line": 14,
+      "end_line": 30
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_status_gutter_no_repo",
+      "start_line": 33,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_status_gutter_clean_repo",
+      "start_line": 43,
+      "end_line": 58
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_status_gutter_modified_file",
+      "start_line": 61,
+      "end_line": 83
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_commands_no_repo",
+      "start_line": 86,
+      "end_line": 100
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_status_command",
+      "start_line": 103,
+      "end_line": 122
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_stage_unstage_commit",
+      "start_line": 125,
+      "end_line": 158
+    },
+    {
+      "path": "tests\\test_git.py",
+      "kind": "function",
+      "name": "test_git_commit_empty_message",
+      "start_line": 161,
+      "end_line": 167
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "temp_git_repo",
+      "start_line": 13,
+      "end_line": 29
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_stash_save",
+      "start_line": 32,
+      "end_line": 52
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_stash_list",
+      "start_line": 55,
+      "end_line": 72
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_stash_pop",
+      "start_line": 75,
+      "end_line": 97
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_stash_apply",
+      "start_line": 100,
+      "end_line": 125
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_stash_drop",
+      "start_line": 128,
+      "end_line": 149
+    },
+    {
+      "path": "tests\\test_git_extras.py",
+      "kind": "function",
+      "name": "test_git_branch_switcher",
+      "start_line": 152,
+      "end_line": 156
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_history_entry_serialization",
+      "start_line": 12,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_ai_history_disabled",
+      "start_line": 43,
+      "end_line": 51
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_ai_history_basic",
+      "start_line": 54,
+      "end_line": 108
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_ai_history_max_entries",
+      "start_line": 111,
+      "end_line": 144
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_ai_history_clear",
+      "start_line": 147,
+      "end_line": 170
+    },
+    {
+      "path": "tests\\test_history.py",
+      "kind": "function",
+      "name": "test_ai_history_command",
+      "start_line": 173,
+      "end_line": 211
+    },
+    {
+      "path": "tests\\test_indexer.py",
+      "kind": "function",
+      "name": "test_symbol_span",
+      "start_line": 9,
+      "end_line": 21
+    },
+    {
+      "path": "tests\\test_indexer.py",
+      "kind": "function",
+      "name": "test_symbols_index",
+      "start_line": 24,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\test_indexer.py",
+      "kind": "function",
+      "name": "test_python_indexer",
+      "start_line": 43,
+      "end_line": 66
+    },
+    {
+      "path": "tests\\test_indexer.py",
+      "kind": "function",
+      "name": "test_build_or_load_symbols",
+      "start_line": 69,
+      "end_line": 90
+    },
+    {
+      "path": "tests\\test_indexer.py",
+      "kind": "function",
+      "name": "test_context_gather_symbol_adjacent",
+      "start_line": 93,
+      "end_line": 124
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "class",
+      "name": "TestIndexWatcher",
+      "start_line": 12,
+      "end_line": 104
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_file_change_event",
+      "start_line": 15,
+      "end_line": 21
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_watcher_initialization",
+      "start_line": 23,
+      "end_line": 33
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_should_watch_file",
+      "start_line": 35,
+      "end_line": 46
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_is_ignored_path",
+      "start_line": 48,
+      "end_line": 59
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_queue_event",
+      "start_line": 61,
+      "end_line": 77
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "test_process_events_batch",
+      "start_line": 79,
+      "end_line": 104
+    },
+    {
+      "path": "tests\\test_index_watch.py",
+      "kind": "function",
+      "name": "callback",
+      "start_line": 86,
+      "end_line": 87
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "buffer_manager",
+      "start_line": 13,
+      "end_line": 15
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "status_bar",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "lsp_handler",
+      "start_line": 25,
+      "end_line": 28
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "mock_lsp_client",
+      "start_line": 32,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "class",
+      "name": "TestLSPActionHandler",
+      "start_line": 43,
+      "end_line": 167
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "test_init",
+      "start_line": 46,
+      "end_line": 50
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "test_register_client",
+      "start_line": 52,
+      "end_line": 55
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "test_get_client",
+      "start_line": 57,
+      "end_line": 61
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "test_get_client_for_file_python",
+      "start_line": 158,
+      "end_line": 162
+    },
+    {
+      "path": "tests\\test_lsp_actions.py",
+      "kind": "function",
+      "name": "test_get_client_for_file_unknown",
+      "start_line": 164,
+      "end_line": 167
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "class",
+      "name": "MockLSPProcess",
+      "start_line": 10,
+      "end_line": 28
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "test_lsp_client_initialization",
+      "start_line": 31,
+      "end_line": 35
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "test_lsp_diagnostics_store",
+      "start_line": 38,
+      "end_line": 56
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "test_diagnostics_overlay",
+      "start_line": 59,
+      "end_line": 90
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "test_lsp_diagnostics_manager",
+      "start_line": 93,
+      "end_line": 104
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 13,
+      "end_line": 18
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "send_message",
+      "start_line": 20,
+      "end_line": 22
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "terminate",
+      "start_line": 24,
+      "end_line": 25
+    },
+    {
+      "path": "tests\\test_lsp_mock.py",
+      "kind": "function",
+      "name": "wait",
+      "start_line": 27,
+      "end_line": 28
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "class",
+      "name": "TestLSPOrganizeImports",
+      "start_line": 10,
+      "end_line": 122
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "lsp_handler",
+      "start_line": 14,
+      "end_line": 16
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "mock_client",
+      "start_line": 19,
+      "end_line": 24
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_organize_imports_no_client",
+      "start_line": 26,
+      "end_line": 30
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_organize_imports_with_client",
+      "start_line": 32,
+      "end_line": 51
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_organize_imports_no_action",
+      "start_line": 53,
+      "end_line": 65
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_organize_imports_with_edit",
+      "start_line": 67,
+      "end_line": 91
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_decode_semantic_tokens",
+      "start_line": 93,
+      "end_line": 114
+    },
+    {
+      "path": "tests\\test_lsp_organize_imports.py",
+      "kind": "function",
+      "name": "test_decode_semantic_tokens_incomplete",
+      "start_line": 116,
+      "end_line": 122
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "class",
+      "name": "TestSemanticTokenRenderer",
+      "start_line": 10,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "class",
+      "name": "TestSemanticTokensManager",
+      "start_line": 52,
+      "end_line": 80
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "class",
+      "name": "TestLSPClientSemanticTokens",
+      "start_line": 83,
+      "end_line": 146
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "function",
+      "name": "test_render_tokens_empty",
+      "start_line": 13,
+      "end_line": 19
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "function",
+      "name": "test_render_tokens_simple",
+      "start_line": 21,
+      "end_line": 32
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "function",
+      "name": "test_get_token_style",
+      "start_line": 34,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "function",
+      "name": "test_update_and_get",
+      "start_line": 55,
+      "end_line": 65
+    },
+    {
+      "path": "tests\\test_lsp_semantic_tokens.py",
+      "kind": "function",
+      "name": "test_clear_cache",
+      "start_line": 67,
+      "end_line": 80
+    },
+    {
+      "path": "tests\\test_network_resilience.py",
+      "kind": "function",
+      "name": "test_circuit_breaker",
+      "start_line": 9,
+      "end_line": 28
+    },
+    {
+      "path": "tests\\test_network_resilience.py",
+      "kind": "function",
+      "name": "test_xai_client_offline",
+      "start_line": 31,
+      "end_line": 37
+    },
+    {
+      "path": "tests\\test_network_resilience.py",
+      "kind": "function",
+      "name": "test_retry_logic",
+      "start_line": 40,
+      "end_line": 47
+    },
+    {
+      "path": "tests\\test_network_resilience.py",
+      "kind": "function",
+      "name": "test_circuit_breaker_integration",
+      "start_line": 50,
+      "end_line": 59
+    },
+    {
+      "path": "tests\\test_patches.py",
+      "kind": "function",
+      "name": "test_apply_unified_diff_add_line",
+      "start_line": 8,
+      "end_line": 20
+    },
+    {
+      "path": "tests\\test_patches.py",
+      "kind": "function",
+      "name": "test_apply_unified_diff_remove_line",
+      "start_line": 23,
+      "end_line": 34
+    },
+    {
+      "path": "tests\\test_patches.py",
+      "kind": "function",
+      "name": "test_apply_unified_diff_change_line",
+      "start_line": 37,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_patches.py",
+      "kind": "function",
+      "name": "test_apply_unified_diff_invalid_hunk",
+      "start_line": 52,
+      "end_line": 59
+    },
+    {
+      "path": "tests\\test_patches_detect.py",
+      "kind": "function",
+      "name": "test_is_unified_diff_true",
+      "start_line": 6,
+      "end_line": 16
+    },
+    {
+      "path": "tests\\test_patches_detect.py",
+      "kind": "function",
+      "name": "test_is_unified_diff_false",
+      "start_line": 19,
+      "end_line": 22
+    },
+    {
+      "path": "tests\\test_patches_detect.py",
+      "kind": "function",
+      "name": "test_parse_affected_paths",
+      "start_line": 25,
+      "end_line": 41
+    },
+    {
+      "path": "tests\\test_patches_partial.py",
+      "kind": "function",
+      "name": "test_split_hunks_basic",
+      "start_line": 7,
+      "end_line": 28
+    },
+    {
+      "path": "tests\\test_patches_partial.py",
+      "kind": "function",
+      "name": "test_split_hunks_no_hunks",
+      "start_line": 31,
+      "end_line": 39
+    },
+    {
+      "path": "tests\\test_patches_partial.py",
+      "kind": "function",
+      "name": "test_apply_selected_hunks_all",
+      "start_line": 42,
+      "end_line": 74
+    },
+    {
+      "path": "tests\\test_patches_partial.py",
+      "kind": "function",
+      "name": "test_apply_selected_hunks_partial",
+      "start_line": 77,
+      "end_line": 108
+    },
+    {
+      "path": "tests\\test_patches_partial.py",
+      "kind": "function",
+      "name": "test_apply_selected_hunks_none",
+      "start_line": 111,
+      "end_line": 135
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "class",
+      "name": "TestSpec",
+      "start_line": 12,
+      "end_line": 51
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "class",
+      "name": "TestTestSuite",
+      "start_line": 54,
+      "end_line": 69
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "class",
+      "name": "TestImplementation",
+      "start_line": 72,
+      "end_line": 87
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "class",
+      "name": "TestSpecPipeline",
+      "start_line": 90,
+      "end_line": 259
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "class",
+      "name": "TestPipelineIntegration",
+      "start_line": 262,
+      "end_line": 282
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_to_dict",
+      "start_line": 15,
+      "end_line": 33
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_from_dict",
+      "start_line": 35,
+      "end_line": 51
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_to_dict",
+      "start_line": 57,
+      "end_line": 69
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_to_dict",
+      "start_line": 75,
+      "end_line": 87
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "mock_client",
+      "start_line": 94,
+      "end_line": 97
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "mock_router",
+      "start_line": 100,
+      "end_line": 105
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "pipeline",
+      "start_line": 108,
+      "end_line": 110
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_generate_spec_success",
+      "start_line": 112,
+      "end_line": 129
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_generate_spec_json_error",
+      "start_line": 131,
+      "end_line": 136
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_generate_tests_success",
+      "start_line": 138,
+      "end_line": 158
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_generate_code_success",
+      "start_line": 160,
+      "end_line": 185
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_run_pipeline_success",
+      "start_line": 188,
+      "end_line": 217
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_iterative_refine",
+      "start_line": 219,
+      "end_line": 259
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_pipeline_with_real_client",
+      "start_line": 266,
+      "end_line": 275
+    },
+    {
+      "path": "tests\\test_pipeline.py",
+      "kind": "function",
+      "name": "test_pipeline_stages_enum",
+      "start_line": 277,
+      "end_line": 282
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "temp_dir",
+      "start_line": 13,
+      "end_line": 16
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "planner",
+      "start_line": 20,
+      "end_line": 27
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "class",
+      "name": "TestPlan",
+      "start_line": 30,
+      "end_line": 58
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "class",
+      "name": "TestAIPlanner",
+      "start_line": 61,
+      "end_line": 182
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_plan_schema",
+      "start_line": 185,
+      "end_line": 190
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_to_dict",
+      "start_line": 33,
+      "end_line": 42
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_from_dict",
+      "start_line": 44,
+      "end_line": 58
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_init",
+      "start_line": 64,
+      "end_line": 67
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_generate_plan_success",
+      "start_line": 70,
+      "end_line": 85
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_generate_plan_invalid_json",
+      "start_line": 88,
+      "end_line": 105
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_validate_and_repair_plan_valid",
+      "start_line": 107,
+      "end_line": 119
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_validate_and_repair_plan_invalid",
+      "start_line": 121,
+      "end_line": 133
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_save_and_load_plan",
+      "start_line": 135,
+      "end_line": 145
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_list_plans",
+      "start_line": 147,
+      "end_line": 165
+    },
+    {
+      "path": "tests\\test_planner.py",
+      "kind": "function",
+      "name": "test_get_plan_stats",
+      "start_line": 167,
+      "end_line": 182
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "class",
+      "name": "TestPluginPermissions",
+      "start_line": 17,
+      "end_line": 144
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "class",
+      "name": "TestPluginHost",
+      "start_line": 147,
+      "end_line": 213
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "class",
+      "name": "TestPluginIPCClient",
+      "start_line": 216,
+      "end_line": 288
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_permissions_creation",
+      "start_line": 20,
+      "end_line": 33
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_validate_permissions_valid",
+      "start_line": 35,
+      "end_line": 45
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_validate_permissions_invalid_api",
+      "start_line": 47,
+      "end_line": 57
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_validate_permissions_invalid_path",
+      "start_line": 59,
+      "end_line": 70
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_validate_permissions_excessive_memory",
+      "start_line": 72,
+      "end_line": 82
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_validate_permissions_excessive_timeout",
+      "start_line": 84,
+      "end_line": 94
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_can_call_api_allowed",
+      "start_line": 96,
+      "end_line": 106
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_can_call_api_denied",
+      "start_line": 108,
+      "end_line": 116
+    },
+    {
+      "path": "tests\\test_plugins_sandbox.py",
+      "kind": "function",
+      "name": "test_can_access_path_allowed",
+      "start_line": 118,
+      "end_line": 144
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "class",
+      "name": "TestBM25Reranker",
+      "start_line": 7,
+      "end_line": 32
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "class",
+      "name": "TestCrossEncoderReranker",
+      "start_line": 35,
+      "end_line": 50
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "class",
+      "name": "TestHybridReranker",
+      "start_line": 53,
+      "end_line": 82
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "class",
+      "name": "TestSnippet",
+      "start_line": 85,
+      "end_line": 116
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_bm25_reranker",
+      "start_line": 10,
+      "end_line": 26
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_bm25_empty_candidates",
+      "start_line": 28,
+      "end_line": 32
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_cross_encoder_fallback",
+      "start_line": 38,
+      "end_line": 50
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_bm25_fallback",
+      "start_line": 56,
+      "end_line": 68
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_cross_encoder_fallback_to_bm25",
+      "start_line": 70,
+      "end_line": 82
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_snippet_creation",
+      "start_line": 88,
+      "end_line": 104
+    },
+    {
+      "path": "tests\\test_reranker.py",
+      "kind": "function",
+      "name": "test_snippet_default_rerank_score",
+      "start_line": 106,
+      "end_line": 116
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_choose_model_single_file_small",
+      "start_line": 6,
+      "end_line": 10
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_choose_model_multiple_files",
+      "start_line": 13,
+      "end_line": 17
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_choose_model_needs_planning",
+      "start_line": 20,
+      "end_line": 24
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_choose_model_complex",
+      "start_line": 27,
+      "end_line": 31
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_choose_model_override",
+      "start_line": 34,
+      "end_line": 38
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_get_temperature",
+      "start_line": 41,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_router.py",
+      "kind": "function",
+      "name": "test_get_temperature_override",
+      "start_line": 52,
+      "end_line": 56
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "class",
+      "name": "TestSymbolGraph",
+      "start_line": 9,
+      "end_line": 98
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_graph_index_init",
+      "start_line": 12,
+      "end_line": 18
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_build_graph_empty_project",
+      "start_line": 20,
+      "end_line": 26
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_build_graph_small_project",
+      "start_line": 28,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_neighbors_basic",
+      "start_line": 51,
+      "end_line": 66
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_neighbors_max_nodes",
+      "start_line": 68,
+      "end_line": 77
+    },
+    {
+      "path": "tests\\test_symbol_graph.py",
+      "kind": "function",
+      "name": "test_graph_persistence",
+      "start_line": 79,
+      "end_line": 98
+    },
+    {
+      "path": "tests\\test_tools_redact.py",
+      "kind": "function",
+      "name": "test_redact_basic",
+      "start_line": 10,
+      "end_line": 15
+    },
+    {
+      "path": "tests\\test_tools_redact.py",
+      "kind": "function",
+      "name": "test_redact_multiple_patterns",
+      "start_line": 18,
+      "end_line": 25
+    },
+    {
+      "path": "tests\\test_tools_redact.py",
+      "kind": "function",
+      "name": "test_redact_no_sensitive_data",
+      "start_line": 28,
+      "end_line": 32
+    },
+    {
+      "path": "tests\\test_tools_redact.py",
+      "kind": "function",
+      "name": "test_redact_partial_matches",
+      "start_line": 35,
+      "end_line": 39
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "test_tool_loop_single_call",
+      "start_line": 9,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "test_tool_loop_multiple_calls",
+      "start_line": 43,
+      "end_line": 87
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "test_tool_loop_max_iterations",
+      "start_line": 90,
+      "end_line": 115
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "mock_repo_search",
+      "start_line": 14,
+      "end_line": 15
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "mock_repo_search",
+      "start_line": 48,
+      "end_line": 49
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "mock_read_file",
+      "start_line": 51,
+      "end_line": 52
+    },
+    {
+      "path": "tests\\test_tool_loop.py",
+      "kind": "function",
+      "name": "mock_repo_search",
+      "start_line": 95,
+      "end_line": 96
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "class",
+      "name": "Provider",
+      "start_line": 7,
+      "end_line": 34
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "class",
+      "name": "BaseProvider",
+      "start_line": 37,
+      "end_line": 57
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "chat",
+      "start_line": 13,
+      "end_line": 24
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "price_table",
+      "start_line": 27,
+      "end_line": 29
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "supports_tools",
+      "start_line": 32,
+      "end_line": 34
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 40,
+      "end_line": 41
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "is_available",
+      "start_line": 44,
+      "end_line": 46
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "_chat_impl",
+      "start_line": 49,
+      "end_line": 51
+    },
+    {
+      "path": "ai\\providers\\base.py",
+      "kind": "function",
+      "name": "chat",
+      "start_line": 53,
+      "end_line": 57
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "class",
+      "name": "OllamaProvider",
+      "start_line": 9,
+      "end_line": 32
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 12,
+      "end_line": 14
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "function",
+      "name": "is_available",
+      "start_line": 16,
+      "end_line": 19
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "function",
+      "name": "_chat_impl",
+      "start_line": 21,
+      "end_line": 24
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "function",
+      "name": "price_table",
+      "start_line": 26,
+      "end_line": 28
+    },
+    {
+      "path": "ai\\providers\\ollama.py",
+      "kind": "function",
+      "name": "supports_tools",
+      "start_line": 30,
+      "end_line": 32
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "class",
+      "name": "OpenAIProvider",
+      "start_line": 11,
+      "end_line": 57
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 14,
+      "end_line": 17
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "is_available",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "_ensure_client",
+      "start_line": 23,
+      "end_line": 29
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "_chat_impl",
+      "start_line": 31,
+      "end_line": 46
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "price_table",
+      "start_line": 48,
+      "end_line": 53
+    },
+    {
+      "path": "ai\\providers\\openai.py",
+      "kind": "function",
+      "name": "supports_tools",
+      "start_line": 55,
+      "end_line": 57
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "class",
+      "name": "XAIProvider",
+      "start_line": 11,
+      "end_line": 61
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "__init__",
+      "start_line": 14,
+      "end_line": 17
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "is_available",
+      "start_line": 19,
+      "end_line": 21
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "_ensure_client",
+      "start_line": 23,
+      "end_line": 32
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "_chat_impl",
+      "start_line": 34,
+      "end_line": 51
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "price_table",
+      "start_line": 53,
+      "end_line": 57
+    },
+    {
+      "path": "ai\\providers\\xai.py",
+      "kind": "function",
+      "name": "supports_tools",
+      "start_line": 59,
+      "end_line": 61
+    },
+    {
+      "path": "tests\\integration\\test_codemod_plan_apply.py",
+      "kind": "class",
+      "name": "TestCodemodPlanApply",
+      "start_line": 12,
+      "end_line": 96
+    },
+    {
+      "path": "tests\\integration\\test_codemod_plan_apply.py",
+      "kind": "function",
+      "name": "test_codemod_with_plan_apply",
+      "start_line": 15,
+      "end_line": 68
+    },
+    {
+      "path": "tests\\integration\\test_codemod_plan_apply.py",
+      "kind": "function",
+      "name": "test_codemod_noop_when_no_changes",
+      "start_line": 70,
+      "end_line": 96
+    },
+    {
+      "path": "tests\\integration\\test_index_watch_integration.py",
+      "kind": "class",
+      "name": "TestIndexWatcherIntegration",
+      "start_line": 12,
+      "end_line": 67
+    },
+    {
+      "path": "tests\\integration\\test_index_watch_integration.py",
+      "kind": "function",
+      "name": "test_watcher_start_stop",
+      "start_line": 15,
+      "end_line": 27
+    },
+    {
+      "path": "tests\\integration\\test_index_watch_integration.py",
+      "kind": "function",
+      "name": "test_file_changes_detected",
+      "start_line": 30,
+      "end_line": 67
+    },
+    {
+      "path": "tests\\integration\\test_index_watch_integration.py",
+      "kind": "function",
+      "name": "callback",
+      "start_line": 40,
+      "end_line": 41
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "temp_git_repo",
+      "start_line": 17,
+      "end_line": 41
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "test_plan_apply_flow",
+      "start_line": 44,
+      "end_line": 120
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "test_plan_apply_with_test_gating",
+      "start_line": 123,
+      "end_line": 126
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "test_plan_rollback",
+      "start_line": 129,
+      "end_line": 188
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "mock_apply_single_step",
+      "start_line": 74,
+      "end_line": 84
+    },
+    {
+      "path": "tests\\integration\\test_plan_apply_git.py",
+      "kind": "function",
+      "name": "mock_apply_single_step",
+      "start_line": 154,
+      "end_line": 159
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "temp_git_repo",
+      "start_line": 16,
+      "end_line": 40
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "test_playground_apply_flow",
+      "start_line": 43,
+      "end_line": 125
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "test_playground_promote_via_patches",
+      "start_line": 128,
+      "end_line": 195
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "test_playground_cleanup",
+      "start_line": 198,
+      "end_line": 251
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "mock_apply_single_step_in_worktree",
+      "start_line": 73,
+      "end_line": 83
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "mock_apply_single_step_in_worktree",
+      "start_line": 153,
+      "end_line": 158
+    },
+    {
+      "path": "tests\\integration\\test_playground_worktree.py",
+      "kind": "function",
+      "name": "mock_apply_single_step_in_worktree",
+      "start_line": 223,
+      "end_line": 228
+    }
+  ],
+  "file_mtimes": {
+    "cli.py": 1761182544.371188,
+    "main.py": 1761173281.6615562,
+    "__init__.py": 1761189744.6894243,
+    "ai\\client.py": 1761190483.9509082,
+    "ai\\context.py": 1761181796.8130083,
+    "ai\\history.py": 1761182545.1345737,
+    "ai\\patches.py": 1761170899.0759814,
+    "ai\\planner.py": 1761190484.2456982,
+    "ai\\plan_executor.py": 1761177955.9798014,
+    "ai\\prompts.py": 1761181797.077024,
+    "ai\\router.py": 1761170219.206923,
+    "ai\\spec_pipeline.py": 1761181796.980012,
+    "ai\\tools.py": 1761170218.7829125,
+    "ai\\__init__.py": 1761167671.8420794,
+    "codemods\\base.py": 1761186243.7323766,
+    "codemods\\js_ts.py": 1761186244.0446734,
+    "codemods\\python_libcst.py": 1761186243.966661,
+    "codemods\\__init__.py": 1761186243.596217,
+    "core\\billing.py": 1761182545.186574,
+    "core\\config.py": 1761190484.1549058,
+    "core\\logging.py": 1761173281.7195587,
+    "core\\telemetry.py": 1761183817.6870344,
+    "core\\utils.py": 1761170218.67491,
+    "core\\__init__.py": 1761167673.8570008,
+    "editor\\app.py": 1761183817.2318454,
+    "editor\\buffers.py": 1761169592.905602,
+    "editor\\commands.py": 1761186244.2150307,
+    "editor\\diagnostics.py": 1761173281.1022704,
+    "editor\\diffview.py": 1761170219.4158132,
+    "editor\\filetree.py": 1761169593.0116217,
+    "editor\\gutter.py": 1761172248.9663444,
+    "editor\\inline_suggest.py": 1761182545.3535445,
+    "editor\\lsp_actions.py": 1761189193.0445175,
+    "editor\\pipelineview.py": 1761181797.173014,
+    "editor\\planview.py": 1761177725.0811634,
+    "editor\\quickfix.py": 1761183065.6278155,
+    "editor\\search.py": 1761169592.9604557,
+    "editor\\semantics.py": 1761179188.1579857,
+    "editor\\statusbar.py": 1761182545.2496104,
+    "editor\\styles.py": 1761167924.965029,
+    "editor\\telemetry_wizard.py": 1761183817.840036,
+    "editor\\workspace_refactor.py": 1761183117.083137,
+    "editor\\ws_codemod.py": 1761186244.131309,
+    "editor\\__init__.py": 1761167669.7909844,
+    "indexer\\embeddings.py": 1761181796.2250106,
+    "indexer\\graph.py": 1761181796.3250165,
+    "indexer\\rerank.py": 1761181796.7330108,
+    "indexer\\symbols.py": 1761181796.1320128,
+    "indexer\\watch.py": 1761190484.051406,
+    "indexer\\__init__.py": 1761179848.009825,
+    "language\\lsp_client.py": 1761179187.9770281,
+    "language\\__init__.py": 1761173281.0092726,
+    "plugins\\example_provider.py": 1761183458.9527118,
+    "plugins\\host.py": 1761186244.6896415,
+    "plugins\\ipc.py": 1761186244.7959578,
+    "plugins\\permissions.py": 1761186244.974348,
+    "plugins\\__init__.py": 1761186244.8909616,
+    "scripts\\generate_cli_docs.py": 1761187732.5117419,
+    "tests\\test_codemods_js.py": 1761186244.4930272,
+    "tests\\test_codemods_python.py": 1761186244.408041,
+    "tests\\test_config.py": 1761189856.6880777,
+    "tests\\test_context.py": 1761170404.3105342,
+    "tests\\test_context_v2.py": 1761179848.2551732,
+    "tests\\test_embeddings_retriever.py": 1761179848.152825,
+    "tests\\test_git.py": 1761172249.3688762,
+    "tests\\test_git_extras.py": 1761177178.549129,
+    "tests\\test_history.py": 1761179189.1404808,
+    "tests\\test_indexer.py": 1761174853.3642757,
+    "tests\\test_index_watch.py": 1761191068.259586,
+    "tests\\test_lsp_actions.py": 1761176055.5673099,
+    "tests\\test_lsp_mock.py": 1761174039.2000644,
+    "tests\\test_lsp_organize_imports.py": 1761179188.734153,
+    "tests\\test_lsp_semantic_tokens.py": 1761179188.5450182,
+    "tests\\test_network_resilience.py": 1761173281.9515564,
+    "tests\\test_patches.py": 1761167924.0480578,
+    "tests\\test_patches_detect.py": 1761169616.17105,
+    "tests\\test_patches_partial.py": 1761170404.4934778,
+    "tests\\test_pipeline.py": 1761181797.321237,
+    "tests\\test_planner.py": 1761176255.6059275,
+    "tests\\test_plugins_sandbox.py": 1761186754.5607958,
+    "tests\\test_reranker.py": 1761182193.9243555,
+    "tests\\test_router.py": 1761169590.3130584,
+    "tests\\test_symbol_graph.py": 1761179848.2088253,
+    "tests\\test_tools_redact.py": 1761170604.4802544,
+    "tests\\test_tool_loop.py": 1761170604.5292344,
+    "tests\\__init__.py": 1761167675.8948321,
+    "ai\\providers\\base.py": 1761182544.737246,
+    "ai\\providers\\ollama.py": 1761182544.970575,
+    "ai\\providers\\openai.py": 1761182544.8565774,
+    "ai\\providers\\xai.py": 1761182544.7905352,
+    "ai\\providers\\__init__.py": 1761182544.6801908,
+    "tests\\integration\\test_codemod_plan_apply.py": 1761186244.600629,
+    "tests\\integration\\test_index_watch_integration.py": 1761191057.7509656,
+    "tests\\integration\\test_plan_apply_git.py": 1761177478.427781,
+    "tests\\integration\\test_playground_worktree.py": 1761177725.2455268
+  }
+}

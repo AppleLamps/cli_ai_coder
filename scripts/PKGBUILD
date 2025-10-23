@@ -1,0 +1,35 @@
+# Maintainer: CLI AI Coder Team <team@cli-ai-coder.com>
+pkgname=cli-ai-coder
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="AI-powered code editor and assistant"
+arch=('x86_64')
+url="https://github.com/cli-ai-coder/cli-ai-coder"
+license=('MIT')
+depends=('python>=3.10' 'python-pip')
+makedepends=('python-setuptools')
+optdepends=(
+    'python-pylsp: Language server support'
+    'python-jedi: Enhanced Python completion'
+    'git: Version control integration'
+)
+source=("$pkgname-$pkgver.tar.gz::https://github.com/cli-ai-coder/cli-ai-coder/archive/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+    cd "$pkgname-$pkgver"
+    python setup.py build
+}
+
+package() {
+    cd "$pkgname-$pkgver"
+    python setup.py install --root="$pkgdir" --optimize=1 --skip-build
+
+    # Install license
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+
+    # Install documentation
+    install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+}
+
+# vim:set ts=4 sw=4 et:

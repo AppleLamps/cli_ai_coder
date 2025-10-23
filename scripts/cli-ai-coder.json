@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "description": "CLI AI Coder - AI-powered code editor and assistant",
+    "homepage": "https://github.com/cli-ai-coder/cli-ai-coder",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cli-ai-coder/cli-ai-coder/releases/download/v0.1.0/cli-ai-coder-0.1.0-windows-x64.zip",
+            "hash": "SHA256_PLACEHOLDER"
+        }
+    },
+    "bin": "ccode.exe",
+    "checkver": {
+        "github": "https://github.com/cli-ai-coder/cli-ai-coder"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cli-ai-coder/cli-ai-coder/releases/download/v$version/cli-ai-coder-$version-windows-x64.zip"
+            }
+        }
+    },
+    "notes": [
+        "CLI AI Coder requires Python 3.10+ and an API key.",
+        "Set your API key: $env:XAI_API_KEY = 'your-key-here'",
+        "Run 'ccode --help' to get started."
+    ]
+}

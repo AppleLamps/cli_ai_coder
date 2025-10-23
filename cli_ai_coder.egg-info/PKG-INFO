@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cli-ai-coder
+Version: 0.1.0
+Summary: CLI AI Coder with xAI integration
+Author: Developer
+Requires-Python: >=3.10
+Requires-Dist: prompt_toolkit
+Requires-Dist: pygments
+Requires-Dist: openai
+Requires-Dist: tomli
+Requires-Dist: pytest
+Requires-Dist: rapidfuzz
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: libcst

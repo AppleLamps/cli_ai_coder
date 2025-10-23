@@ -1,0 +1,9 @@
+prompt_toolkit
+pygments
+openai
+tomli
+pytest
+rapidfuzz
+typer
+rich
+libcst
