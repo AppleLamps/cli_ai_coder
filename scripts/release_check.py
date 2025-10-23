@@ -30,7 +30,7 @@ def run_cmd(cmd, cwd=None, check=True, capture_output=True, env=None):
         return e
 
 def main():
-    print("🚢 CLI AI Coder Release Check - 1.0.0")
+    print("CLI AI Coder Release Check - 1.0.0")
     print("=" * 50)
 
     # Ensure we're in the project root
@@ -100,36 +100,36 @@ def main():
         # This assumes ccode is in PATH or we install it globally
         # For simplicity, skip full smoke for now, as it requires full setup
 
-        print("⚠️  Skipping full functional smoke (requires ccode in PATH)")
+        print("WARNING: Skipping full functional smoke (requires ccode in PATH)")
 
     # 7. Licensing & security
     print("\n7. Licensing & security...")
     license_file = project_root / "LICENSE"
     if not license_file.exists():
-        print("❌ LICENSE file missing")
+        print("ERROR: LICENSE file missing")
         sys.exit(1)
-    print("✅ LICENSE file present")
+    print("OK: LICENSE file present")
 
     # pip check (but since we installed in temp, hard to check)
-    print("⚠️  Skipping pip check (requires global install)")
+    print("WARNING: Skipping pip check (requires global install)")
 
     # Config audit
     from core.config import get_config
     config = get_config()
     if config.telemetry_enabled:
-        print("❌ Telemetry enabled by default")
+        print("ERROR: Telemetry enabled by default")
         sys.exit(1)
-    print("✅ Telemetry disabled by default")
+    print("OK: Telemetry disabled by default")
 
     if not config.plugins_safe_mode:
-        print("❌ Plugins not in safe mode by default")
+        print("ERROR: Plugins not in safe mode by default")
         sys.exit(1)
-    print("✅ Plugins in safe mode by default")
+    print("OK: Plugins in safe mode by default")
 
     if config.billing_hard_stop:
-        print("❌ Billing hard stop enabled by default")
+        print("ERROR: Billing hard stop enabled by default")
         sys.exit(1)
-    print("✅ Billing hard stop disabled by default")
+    print("OK: Billing hard stop disabled by default")
 
     # 8. CLI contract
     print("\n8. CLI contract...")
@@ -139,15 +139,15 @@ def main():
     required_commands = ["open", "plan", "pipeline", "index", "doctor"]
     for cmd in required_commands:
         if cmd not in commands:
-            print(f"❌ Command '{cmd}' missing")
+            print(f"ERROR: Command '{cmd}' missing")
             sys.exit(1)
-    print("✅ Required commands present")
+    print("OK: Required commands present")
 
     # 9. Cross-platform (skip for local)
     print("\n9. Cross-platform check...")
-    print("⚠️  Skipping cross-platform (for CI only)")
+    print("WARNING: Skipping cross-platform (for CI only)")
 
-    print("\n✅ All checks passed!")
+    print("\nSUCCESS: All checks passed!")
     return 0
 
 if __name__ == "__main__":
