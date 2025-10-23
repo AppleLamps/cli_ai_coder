@@ -42,6 +42,8 @@ def main():
     print("\n1. Running tests...")
     env = os.environ.copy()
     env["PYTHONPATH"] = str(project_root)
+    # Set dummy API key to avoid "No AI providers available" error during test collection
+    env["XAI_API_KEY"] = "test-key-for-ci"
     run_cmd(["python", "-m", "pytest", "-q", "--ignore=tests/integration"], env=env)
 
     # 2. Build docs

@@ -14,10 +14,12 @@ dependencies = [
     "openai",
     "tomli",
     "pytest",
+    "pytest-asyncio",
     "rapidfuzz",
     "typer",
     "rich",
-    "libcst"
+    "libcst",
+    "numpy"
 ]
 
 [project.scripts]
